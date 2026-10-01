@@ -38,6 +38,8 @@ The package tool creates a ZIP, a SHA-256 checksum, and a file manifest. Test lo
 
 ## Credits
 
+ForgeLab Navigator was developed with assistance from AI coding tools, including Claude. These tools were used for implementation and code review.
+
 The runtime retains the bundled third-party licenses and data provenance. EDTS provides procedural system naming; Elite Dangerous Almanac provides permit data; EDCD coriolis-data provides FSD and fuel-scoop values. The neutron map combines reported stars with separately labelled ForgeLab predictions.
 
 Elite Dangerous is © Frontier Developments plc. This is an unofficial fan tool.
