@@ -1,0 +1,61 @@
+{
+  "retrieved_utc_date": "2026-09-24",
+  "sources": [
+    {
+      "path": "jump-sources/EDCD-coriolis-data/EDCD-coriolis-data-0db9234/modules/standard/frame_shift_drive.json",
+      "url": "https://github.com/EDCD/coriolis-data/blob/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/standard/frame_shift_drive.json",
+      "sha256": "46c5544c2d0bd09096bb2a0ef8a6c3ec5dc5e6a25e8d8e82178410a354243ee2",
+      "bytes": 43151
+    },
+    {
+      "path": "jump-sources/EDCD-coriolis-data/EDCD-coriolis-data-0db9234/modules/internal/guardian_fsd_booster.json",
+      "url": "https://github.com/EDCD/coriolis-data/blob/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/internal/guardian_fsd_booster.json",
+      "sha256": "7128075a6a3d29df7192e8ef0fa4725c104d249b6405c10930e6d94fde5c7af4",
+      "bytes": 2266
+    },
+    {
+      "path": "jump-sources/EDCD-coriolis-data/EDCD-coriolis-data-0db9234/modules/internal/fuel_scoop.json",
+      "url": "https://github.com/EDCD/coriolis-data/blob/0db9234b5b9ce8c939ea84133d7ce336eea88e27/modules/internal/fuel_scoop.json",
+      "sha256": "30ab11ac966ce50477babfe91dcd78a6272607b5eb976a1c228ccbb286122a84",
+      "bytes": 14404
+    },
+    {
+      "path": "jump-sources/EDCD-coriolis-data/EDCD-coriolis-data-0db9234/LICENSE.md",
+      "url": "https://github.com/EDCD/coriolis-data/blob/0db9234b5b9ce8c939ea84133d7ce336eea88e27/LICENSE.md",
+      "sha256": "3bb419f1597523a602de683c75b858421914569a941562cb7115828f7055feac",
+      "bytes": 1519
+    },
+    {
+      "path": "jump-sources/taleden-EDSY/taleden-EDSY-e85bb52/edsy.js",
+      "url": "https://github.com/taleden/EDSY/blob/e85bb52c0de9886075ecd08ac4271003e3dc8668/edsy.js",
+      "sha256": "dabc0eb95e9c097ad61d5e93fc373bb7e063f3da4139c40708d0123b1d60047a",
+      "bytes": 524639
+    },
+    {
+      "path": "jump-sources/EDCD-coriolis/EDCD-coriolis-68c042c/src/app/shipyard/Calculations.js",
+      "url": "https://github.com/EDCD/coriolis/blob/68c042ca6e3db62372cbbb2077cf972345511712/src/app/shipyard/Calculations.js",
+      "sha256": "1157ede4c6a0e5711e904ac990a68a874dc3cfe30213f4ae792e260abbf45e38",
+      "bytes": 51024
+    },
+    {
+      "path": "jump-sources/frontier-caspian-0.html",
+      "url": "https://www.elitedangerous.com/news/galnet/zorgon-peterson-unveils-caspian-explorer-vessel",
+      "sha256": "b441977d0d8b49ca2409f4c769b1a04ee8cafd6cc93415d1ae0f698889c279da",
+      "bytes": 2773794
+    },
+    {
+      "path": "jump-sources/frontier-caspian-1.html",
+      "url": "https://www.elitedangerous.com/update-notes/4-3-0-0",
+      "sha256": "d035bf6de6073273f7c1d7920127df025c4f44ae6f9af3aa06fa378dc811fe2e",
+      "bytes": 2995401
+    },
+    {
+      "path": "jump-sources/frontier-caspian-2.html",
+      "url": "https://community.elitedangerous.com/galnet/02-DEC-3311",
+      "sha256": "bab36caba387be72043d1aee1b76c3fa810def10f95225f0d749503dc8ee4d15",
+      "bytes": 283260
+    }
+  ],
+  "journal_manual": "https://hosting.zaonce.net/community/journal/v37/Journal_Manual_v37.pdf",
+  "license_note": "Coriolis JSON data is attributed to Frontier and subject to Frontier terms, not MIT. EDSY code is CC-BY-NC 4.0; consulted as a formula reference, not vendored into runtime. Runtime code was independently implemented."
+}

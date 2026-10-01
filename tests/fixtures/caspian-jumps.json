@@ -1,0 +1,1530 @@
+[
+  {
+    "jump_dist": 71.33,
+    "fuel_used": 5.571049,
+    "fuel_level": 122.428947,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 65.609,
+    "fuel_used": 4.482442,
+    "fuel_level": 117.946503,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 400.982,
+    "fuel_used": 4.732728,
+    "fuel_level": 123.267273,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 151.992,
+    "fuel_used": 0.414849,
+    "fuel_level": 123.042961,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 93.265,
+    "fuel_used": 6.189541,
+    "fuel_level": 116.853424,
+    "boost": 1.0,
+    "injection": 1.25,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 93.265,
+    "fuel_used": 6.234893,
+    "fuel_level": 121.765106,
+    "boost": 1.0,
+    "injection": 1.25,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 93.265,
+    "fuel_used": 6.177874,
+    "fuel_level": 115.587234,
+    "boost": 1.0,
+    "injection": 1.25,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.521,
+    "fuel_used": 6.641813,
+    "fuel_level": 121.358185,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 20.718,
+    "fuel_used": 0.252511,
+    "fuel_level": 127.74749,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 75.822,
+    "fuel_used": 6.477633,
+    "fuel_level": 120.12986,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 18.631,
+    "fuel_used": 0.191456,
+    "fuel_level": 120.319427,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.521,
+    "fuel_used": 6.641813,
+    "fuel_level": 121.358185,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 20.718,
+    "fuel_used": 0.250303,
+    "fuel_level": 121.786667,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.372,
+    "fuel_used": 6.538116,
+    "fuel_level": 114.108551,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.964,
+    "fuel_used": 6.60136,
+    "fuel_level": 107.507187,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 74.737,
+    "fuel_used": 6.063444,
+    "fuel_level": 100.303741,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 47.029,
+    "fuel_used": 1.88518,
+    "fuel_level": 98.418564,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 71.512,
+    "fuel_used": 5.606606,
+    "fuel_level": 122.393394,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 70.381,
+    "fuel_used": 5.35184,
+    "fuel_level": 118.163513,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 71.656,
+    "fuel_used": 5.554086,
+    "fuel_level": 112.659576,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 393.264,
+    "fuel_used": 4.407006,
+    "fuel_level": 108.252571,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 379.384,
+    "fuel_used": 4.001646,
+    "fuel_level": 104.250923,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 357.288,
+    "fuel_used": 3.423125,
+    "fuel_level": 100.827797,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 437.324,
+    "fuel_used": 5.647775,
+    "fuel_level": 95.180023,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 28.156,
+    "fuel_used": 0.518146,
+    "fuel_level": 94.66188,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 71.574,
+    "fuel_used": 5.337437,
+    "fuel_level": 88.184448,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 65.178,
+    "fuel_used": 4.188775,
+    "fuel_level": 83.995674,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 402.252,
+    "fuel_used": 4.466558,
+    "fuel_level": 79.529114,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 292.739,
+    "fuel_used": 2.002754,
+    "fuel_level": 77.52636,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.123,
+    "fuel_used": 0.038859,
+    "fuel_level": 75.225571,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.123,
+    "fuel_used": 0.042058,
+    "fuel_level": 127.957939,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.123,
+    "fuel_used": 0.042059,
+    "fuel_level": 127.957939,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.123,
+    "fuel_used": 0.042056,
+    "fuel_level": 127.915886,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 8.081,
+    "fuel_used": 0.023933,
+    "fuel_level": 127.891953,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 8.081,
+    "fuel_used": 0.023932,
+    "fuel_level": 127.868019,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.123,
+    "fuel_used": 0.041988,
+    "fuel_level": 126.818008,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 13.551,
+    "fuel_used": 0.087279,
+    "fuel_level": 127.91272,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 5.377,
+    "fuel_used": 0.008636,
+    "fuel_level": 127.991364,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 11.075,
+    "fuel_used": 0.052591,
+    "fuel_level": 126.964844,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.676,
+    "fuel_used": 0.037569,
+    "fuel_level": 127.927673,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 19.463,
+    "fuel_used": 0.215955,
+    "fuel_level": 127.784042,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.986,
+    "fuel_used": 0.040653,
+    "fuel_level": 127.959343,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 18.916,
+    "fuel_used": 0.201087,
+    "fuel_level": 127.798912,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 7.404,
+    "fuel_used": 0.019226,
+    "fuel_level": 127.980774,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.539,
+    "fuel_used": 0.036253,
+    "fuel_level": 127.963745,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 6.24,
+    "fuel_used": 0.012516,
+    "fuel_level": 127.175156,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 75.506,
+    "fuel_used": 6.423288,
+    "fuel_level": 121.576714,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 62.425,
+    "fuel_used": 3.947015,
+    "fuel_level": 116.657303,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 5.224,
+    "fuel_used": 0.008032,
+    "fuel_level": 127.991966,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.892,
+    "fuel_used": 6.711463,
+    "fuel_level": 120.148537,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 74.728,
+    "fuel_used": 6.187014,
+    "fuel_level": 113.961525,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 16.456,
+    "fuel_used": 0.141059,
+    "fuel_level": 123.833511,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.583,
+    "fuel_used": 0.046642,
+    "fuel_level": 122.646873,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.583,
+    "fuel_used": 0.047008,
+    "fuel_level": 127.952995,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.583,
+    "fuel_used": 0.047004,
+    "fuel_level": 127.905991,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 15.23,
+    "fuel_used": 0.116317,
+    "fuel_level": 124.502884,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 8.38,
+    "fuel_used": 0.026217,
+    "fuel_level": 127.973785,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 17.109,
+    "fuel_used": 0.15615,
+    "fuel_level": 126.70385,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 7.51,
+    "fuel_used": 0.019907,
+    "fuel_level": 127.298988,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.76,
+    "fuel_used": 0.038329,
+    "fuel_level": 126.821671,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 15.695,
+    "fuel_used": 0.126033,
+    "fuel_level": 127.87397,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 8.663,
+    "fuel_used": 0.028482,
+    "fuel_level": 127.84549,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 7.175,
+    "fuel_used": 0.017777,
+    "fuel_level": 127.982224,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 43.639,
+    "fuel_used": 1.626245,
+    "fuel_level": 125.233757,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 20.72,
+    "fuel_used": 0.252571,
+    "fuel_level": 127.747429,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.027,
+    "fuel_used": 0.041059,
+    "fuel_level": 127.706367,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 17.112,
+    "fuel_used": 0.156233,
+    "fuel_level": 126.80587,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 8.567,
+    "fuel_used": 0.027654,
+    "fuel_level": 126.832344,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 8.461,
+    "fuel_used": 0.026759,
+    "fuel_level": 125.665588,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 16.971,
+    "fuel_used": 0.152482,
+    "fuel_level": 124.373108,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 15.635,
+    "fuel_used": 0.124247,
+    "fuel_level": 124.671654,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.287,
+    "fuel_used": 6.549173,
+    "fuel_level": 117.145256,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 55.244,
+    "fuel_used": 2.889287,
+    "fuel_level": 113.596611,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 43.335,
+    "fuel_used": 1.600695,
+    "fuel_level": 126.399307,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.492,
+    "fuel_used": 6.628161,
+    "fuel_level": 120.634109,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.489,
+    "fuel_used": 6.61916,
+    "fuel_level": 119.79187,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 72.745,
+    "fuel_used": 5.851559,
+    "fuel_level": 122.148438,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.429,
+    "fuel_used": 6.610714,
+    "fuel_level": 120.249283,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.906,
+    "fuel_used": 6.725492,
+    "fuel_level": 121.274506,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 40.828,
+    "fuel_used": 1.378869,
+    "fuel_level": 126.621132,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 34.028,
+    "fuel_used": 0.874036,
+    "fuel_level": 127.125961,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 42.27,
+    "fuel_used": 1.504031,
+    "fuel_level": 126.495972,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 14.059,
+    "fuel_used": 0.095574,
+    "fuel_level": 127.136154,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 75.76,
+    "fuel_used": 6.477728,
+    "fuel_level": 121.52227,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 77.062,
+    "fuel_used": 6.759875,
+    "fuel_level": 121.240128,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 14.278,
+    "fuel_used": 0.099468,
+    "fuel_level": 127.900536,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.408,
+    "fuel_used": 6.616352,
+    "fuel_level": 121.28418,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.722,
+    "fuel_used": 6.685412,
+    "fuel_level": 121.31459,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 31.153,
+    "fuel_used": 0.700804,
+    "fuel_level": 127.299194,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 40.622,
+    "fuel_used": 1.361526,
+    "fuel_level": 126.638474,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 33.239,
+    "fuel_used": 0.822868,
+    "fuel_level": 126.037132,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 15.639,
+    "fuel_used": 0.12491,
+    "fuel_level": 127.875092,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 21.538,
+    "fuel_used": 0.277862,
+    "fuel_level": 126.746056,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.939,
+    "fuel_used": 0.050983,
+    "fuel_level": 126.809021,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 12.682,
+    "fuel_used": 0.073928,
+    "fuel_level": 127.926071,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 29.805,
+    "fuel_used": 0.627136,
+    "fuel_level": 127.128098,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 5.482,
+    "fuel_used": 0.009059,
+    "fuel_level": 127.725731,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.134,
+    "fuel_used": 0.042103,
+    "fuel_level": 126.817894,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 22.232,
+    "fuel_used": 0.301006,
+    "fuel_level": 127.114532,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 8.052,
+    "fuel_used": 0.02372,
+    "fuel_level": 127.97628,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 19.838,
+    "fuel_used": 0.226511,
+    "fuel_level": 127.773491,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 5.344,
+    "fuel_used": 0.008503,
+    "fuel_level": 127.787025,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 39.589,
+    "fuel_used": 1.276157,
+    "fuel_level": 126.510872,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 6.013,
+    "fuel_used": 0.01138,
+    "fuel_level": 125.359489,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 24.916,
+    "fuel_used": 0.399478,
+    "fuel_level": 125.520912,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 56.311,
+    "fuel_used": 3.067858,
+    "fuel_level": 121.578979,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 36.248,
+    "fuel_used": 1.0142,
+    "fuel_level": 120.564781,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 29.261,
+    "fuel_used": 0.598127,
+    "fuel_level": 126.261871,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 26.26,
+    "fuel_used": 0.452389,
+    "fuel_level": 120.707611,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 45.0,
+    "fuel_used": 1.750273,
+    "fuel_level": 122.829727,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 47.774,
+    "fuel_used": 2.043141,
+    "fuel_level": 125.956856,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 71.972,
+    "fuel_used": 5.678217,
+    "fuel_level": 120.041786,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 75.205,
+    "fuel_used": 6.359379,
+    "fuel_level": 121.640625,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 48.687,
+    "fuel_used": 2.142185,
+    "fuel_level": 125.857819,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 42.072,
+    "fuel_used": 1.486478,
+    "fuel_level": 126.513519,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.986,
+    "fuel_used": 0.040653,
+    "fuel_level": 127.959343,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 13.301,
+    "fuel_used": 0.0833,
+    "fuel_level": 127.916702,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 27.359,
+    "fuel_used": 0.506377,
+    "fuel_level": 127.493622,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 4.388,
+    "fuel_used": 0.005192,
+    "fuel_level": 127.994804,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 15.937,
+    "fuel_used": 0.130961,
+    "fuel_level": 127.869041,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 4.29,
+    "fuel_used": 0.004905,
+    "fuel_level": 127.864136,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 31.991,
+    "fuel_used": 0.747681,
+    "fuel_level": 126.11232,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 24.248,
+    "fuel_used": 0.374329,
+    "fuel_level": 127.625671,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 6.363,
+    "fuel_used": 0.013161,
+    "fuel_level": 127.986839,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 5.565,
+    "fuel_used": 0.00941,
+    "fuel_level": 127.990593,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 19.237,
+    "fuel_used": 0.20938,
+    "fuel_level": 126.65062,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 10.48,
+    "fuel_used": 0.045874,
+    "fuel_level": 127.954124,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 19.266,
+    "fuel_used": 0.210517,
+    "fuel_level": 127.789482,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 5.599,
+    "fuel_used": 0.009555,
+    "fuel_level": 127.990448,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 19.471,
+    "fuel_used": 0.216173,
+    "fuel_level": 127.783829,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 18.352,
+    "fuel_used": 0.1864,
+    "fuel_level": 127.722664,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 35.98,
+    "fuel_used": 1.004983,
+    "fuel_level": 126.995018,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 13.457,
+    "fuel_used": 0.085768,
+    "fuel_level": 127.91423,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 5.571,
+    "fuel_used": 0.009439,
+    "fuel_level": 127.990562,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 7.148,
+    "fuel_used": 0.017611,
+    "fuel_level": 127.982391,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.596,
+    "fuel_used": 0.036737,
+    "fuel_level": 126.823265,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 14.859,
+    "fuel_used": 0.109898,
+    "fuel_level": 127.890099,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.446,
+    "fuel_used": 6.614295,
+    "fuel_level": 120.245705,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 16.841,
+    "fuel_used": 0.150185,
+    "fuel_level": 127.118317,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 8.329,
+    "fuel_used": 0.025813,
+    "fuel_level": 127.97419,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.879,
+    "fuel_used": 0.039508,
+    "fuel_level": 126.794685,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 5.904,
+    "fuel_used": 0.010911,
+    "fuel_level": 127.98909,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 17.07,
+    "fuel_used": 0.15501,
+    "fuel_level": 125.564995,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.685,
+    "fuel_used": 0.037651,
+    "fuel_level": 127.962349,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 15.097,
+    "fuel_used": 0.11437,
+    "fuel_level": 127.885628,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 24.697,
+    "fuel_used": 0.38476,
+    "fuel_level": 115.075249,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 21.842,
+    "fuel_used": 0.288186,
+    "fuel_level": 127.711815,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 20.404,
+    "fuel_used": 0.243044,
+    "fuel_level": 127.756958,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 29.273,
+    "fuel_used": 0.599701,
+    "fuel_level": 127.400299,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 9.877,
+    "fuel_used": 0.039521,
+    "fuel_level": 127.405128,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 73.098,
+    "fuel_used": 5.903258,
+    "fuel_level": 119.816742,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 73.306,
+    "fuel_used": 5.956561,
+    "fuel_level": 121.061752,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 360.197,
+    "fuel_used": 3.581779,
+    "fuel_level": 117.479973,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 373.424,
+    "fuel_used": 3.899333,
+    "fuel_level": 113.580643,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 427.86,
+    "fuel_used": 5.449719,
+    "fuel_level": 108.13092,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 357.288,
+    "fuel_used": 3.443042,
+    "fuel_level": 104.687881,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 379.384,
+    "fuel_used": 3.980378,
+    "fuel_level": 100.707504,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 409.971,
+    "fuel_used": 4.804005,
+    "fuel_level": 95.903496,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 17.901,
+    "fuel_used": 0.175168,
+    "fuel_level": 127.824829,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.845,
+    "fuel_used": 6.712417,
+    "fuel_level": 121.287582,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.742,
+    "fuel_used": 6.623935,
+    "fuel_level": 114.663651,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 61.848,
+    "fuel_used": 3.898557,
+    "fuel_level": 124.10144,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 75.961,
+    "fuel_used": 6.488029,
+    "fuel_level": 118.091972,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 77.107,
+    "fuel_used": 6.671435,
+    "fuel_level": 111.42054,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 77.077,
+    "fuel_used": 6.763213,
+    "fuel_level": 121.236786,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.327,
+    "fuel_used": 6.599517,
+    "fuel_level": 121.400482,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.587,
+    "fuel_used": 6.655828,
+    "fuel_level": 121.34417,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 77.436,
+    "fuel_used": 6.775465,
+    "fuel_level": 114.568703,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.794,
+    "fuel_used": 6.701032,
+    "fuel_level": 121.298965,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 77.369,
+    "fuel_used": 3.906135,
+    "fuel_level": 124.093864,
+    "boost": 1.0,
+    "injection": 1.25,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.198,
+    "fuel_used": 6.534171,
+    "fuel_level": 117.559692,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.792,
+    "fuel_used": 6.700642,
+    "fuel_level": 121.299362,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 77.3,
+    "fuel_used": 6.77708,
+    "fuel_level": 117.710907,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 76.304,
+    "fuel_used": 6.495269,
+    "fuel_level": 111.215637,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 77.759,
+    "fuel_used": 6.781887,
+    "fuel_level": 108.179581,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 69.457,
+    "fuel_used": 5.140001,
+    "fuel_level": 113.421593,
+    "boost": 1.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 445.202,
+    "fuel_used": 6.018001,
+    "fuel_level": 107.403595,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 412.76,
+    "fuel_used": 4.935434,
+    "fuel_level": 102.468163,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 442.335,
+    "fuel_used": 5.825421,
+    "fuel_level": 96.642738,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 396.08,
+    "fuel_used": 4.3801,
+    "fuel_level": 92.262642,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 440.037,
+    "fuel_used": 5.662311,
+    "fuel_level": 86.600334,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 407.809,
+    "fuel_used": 4.640914,
+    "fuel_level": 81.959419,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 455.044,
+    "fuel_used": 6.062466,
+    "fuel_level": 75.896957,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 457.573,
+    "fuel_used": 6.090468,
+    "fuel_level": 69.806488,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 455.395,
+    "fuel_used": 5.962176,
+    "fuel_level": 63.844311,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 443.387,
+    "fuel_used": 5.525439,
+    "fuel_level": 58.318871,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 408.959,
+    "fuel_used": 4.475106,
+    "fuel_level": 53.843765,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 294.622,
+    "fuel_used": 1.956083,
+    "fuel_level": 51.88768,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 447.987,
+    "fuel_used": 5.565682,
+    "fuel_level": 46.321999,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 359.28,
+    "fuel_used": 3.176246,
+    "fuel_level": 43.145752,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  },
+  {
+    "jump_dist": 457.627,
+    "fuel_used": 5.780002,
+    "fuel_level": 36.22575,
+    "boost": 6.0,
+    "injection": 1.0,
+    "cargo": 0
+  }
+]

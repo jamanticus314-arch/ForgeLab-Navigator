@@ -1,0 +1,44 @@
+/*
+ * Whole regions whose star systems are permit-locked.
+ *
+ * Source: the community-maintained "Elite Dangerous Permit Database" spreadsheet,
+ * obtained via canonn-signals. Permit locks are published in no game data file or API,
+ * so the list is hand-maintained and best-effort.
+ *
+ * Credit and licence terms: ATTRIBUTIONS.md. Acquisition, revisions, derivation and
+ * corrections: data/astro/SOURCES.md.
+ *
+ * Each entry is a region name in hand-authored-regions.jsonc and also the
+ * whole-token prefix of every system name inside that region. Permit-locked
+ * bodies inside otherwise-open systems (e.g. Diso 5 C, Lave 2) are out of scope.
+ */
+[
+  "Bleia1",
+  "Bleia2",
+  "Bleia3",
+  "Bleia4",
+  "Bleia5",
+  "Bovomit",
+  "Col 121 Sector",
+  "Col 70 Sector",
+  "Col 97 Sector",
+  "Cone Sector",
+  "Dryman",
+  "Froadik",
+  "Horsehead Dark Region",
+  "Hyponia",
+  "IC 4673 Sector",
+  "M41 Sector",
+  "NGC 1647 Sector",
+  "NGC 2264 Sector",
+  "NGC 2286 Sector",
+  "NGC 3603 Sector",
+  "Praei1",
+  "Praei2",
+  "Praei3",
+  "Praei4",
+  "Praei5",
+  "Praei6",
+  "Regor Sector",
+  "Sidgoir"
+]

@@ -1,0 +1,31 @@
+{
+  "retrieved": "2026-09-24",
+  "commit": "506fbc1908b1bcd39ddc3081ca58bb4309e4b8c9",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/Elite-Dangerous-Almanac/Almanac-Core/506fbc1908b1bcd39ddc3081ca58bb4309e4b8c9/data/astro/hand-authored-regions.jsonc",
+      "path": "Almanac-hand-authored-regions.jsonc",
+      "sha256": "2b97a42d2379ad5fd28d972cb6f5351affc424b209c22b4b26a711c6be4a8f66"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Elite-Dangerous-Almanac/Almanac-Core/506fbc1908b1bcd39ddc3081ca58bb4309e4b8c9/data/astro/permit-locked-regions.jsonc",
+      "path": "Almanac-permit-locked-regions.jsonc",
+      "sha256": "386cb2c969d4d62ab93c963ae91e40bb6f2a9a37c098a802a2f2f67cd5c4a44e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Elite-Dangerous-Almanac/Almanac-Core/506fbc1908b1bcd39ddc3081ca58bb4309e4b8c9/data/astro/permit-locked-systems.jsonc",
+      "path": "Almanac-permit-locked-systems.jsonc",
+      "sha256": "2d6fb1dfe16543e0dc966a38b0a0ed1efd07a9a5d46f67712db1da35bf9051cf"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Elite-Dangerous-Almanac/Almanac-Core/506fbc1908b1bcd39ddc3081ca58bb4309e4b8c9/data/astro/SOURCES.md",
+      "path": "Almanac-SOURCES.md",
+      "sha256": "b13363a1fb94738e3089b0c832a6b4e1d1e3f51d0bd3b097209719f868c8a16b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Elite-Dangerous-Almanac/Almanac-Core/506fbc1908b1bcd39ddc3081ca58bb4309e4b8c9/LICENSE",
+      "path": "Almanac-LICENSE",
+      "sha256": "cd99588a7cfdbd600d5f09b4190ddf06044a959db5d70dff74cc547988775618"
+    }
+  ]
+}

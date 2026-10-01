@@ -1,0 +1,48 @@
+MIT License
+
+Copyright (c) 2026 Elite Dangerous Community
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+The MIT License above covers this project's own code, documentation, and the
+organisation of its data files. It does not relicense bundled third-party or
+Elite Dangerous game data.
+
+Elite Dangerous Almanac also incorporates Elite Dangerous game data (ship,
+module, and outfitting values). That data is the property of Frontier
+Developments plc and is used here under Frontier's media-usage terms:
+
+    Elite Dangerous Almanac was created using assets and imagery from Elite
+    Dangerous, with the permission of Frontier Developments plc, for
+    non-commercial purposes. It is not endorsed by nor reflects the views or
+    opinions of Frontier Developments and no employee of Frontier Developments
+    was involved in the making of it.
+
+Frontier's rules:
+https://forums.frontier.co.uk/threads/elite-dangerous-media-usage-rules.510879/
+
+Other bundled catalogues and derived values remain subject to the terms listed
+in the third-party notices that accompany this project: `ATTRIBUTIONS.md` at
+the repository root, shipped inside the npm package as
+`THIRD_PARTY_NOTICES.md`. In particular, some upstream sources state no
+explicit licence and EDSY-derived material is attributed there under
+CC BY-NC 4.0. Consumers must review those terms before redistributing the data
+or using it commercially, and should preserve the applicable notices.

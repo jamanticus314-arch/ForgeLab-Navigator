@@ -1,0 +1,414 @@
+{
+  "format": "stellar-stage-port-1",
+  "binary_sha256": "e6be8bbe04e6a7ae226d4318945af7f367de13dc5a007a261964d9ba8144e988",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7450,
+      "sha256": "81622e56c908ea6f1fa487b7a25fb3f0e9c531c3a406ef66f4bad3c5bd67f8d9"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 5084,
+      "sha256": "ae441f255c0eb32b96e1277e7241f1cc2052be0e9fbd28b670e40230d86a7166"
+    },
+    {
+      "path": "_bootstrap.py",
+      "bytes": 342,
+      "sha256": "c22267d13a3ecd17499064cdc0d5f133af5b29284d55d12f8cb6ce26e05f3466"
+    },
+    {
+      "path": "api.py",
+      "bytes": 5869,
+      "sha256": "5bb83780ede790655224ea566d8ed93af425e27da57001a42451e1f71aa686aa"
+    },
+    {
+      "path": "batch_runner.py",
+      "bytes": 7107,
+      "sha256": "aa70d8c1212b37849918c735b042fa16d703477246eaab235450343a94b797d1"
+    },
+    {
+      "path": "boxel_scheduler.py",
+      "bytes": 24148,
+      "sha256": "78afab792040b41c8ee5b026c64229fff3e18449d0a5ab29883292b04fdc0a24"
+    },
+    {
+      "path": "companion_notes.md",
+      "bytes": 8013,
+      "sha256": "640d45e890cdb9fc1a289488774d9ba19f03de505a6a2f1527d90f025890767d"
+    },
+    {
+      "path": "companion_stage.py",
+      "bytes": 14101,
+      "sha256": "7b0f285d27c8a62d7ab18307b8ad69e1cd38efbbd6f46765c6882ac50e26a9aa"
+    },
+    {
+      "path": "galaxy_allocator.py",
+      "bytes": 6540,
+      "sha256": "e39a621b489eac438a1192f8862ea46ba8c3764133ba448b48e65c19a68e44eb"
+    },
+    {
+      "path": "galaxy_assets/catalogue-literal96.bin.zlib",
+      "bytes": 5199240,
+      "sha256": "7e13fb1b565cffaf8895231b73d11c7e1817fff4bdb9988690e54278b3cf4ced"
+    },
+    {
+      "path": "galaxy_assets/catalogue-native96.bin.zlib",
+      "bytes": 5579888,
+      "sha256": "b1caa64646775b0ff03cb47552a7a8815e7b432b995526d22d47b881b78a6960"
+    },
+    {
+      "path": "galaxy_assets/catalogue-provenance.json.zlib",
+      "bytes": 463573,
+      "sha256": "1afb709c5bf9ae8d8a337f6d8d01776842e9a50d059896d00e94c570cea34b7a"
+    },
+    {
+      "path": "galaxy_assets/manifest.json",
+      "bytes": 22083,
+      "sha256": "91619c6d1f415ec39b69464fa131705c74d23ff544496eafa7fb3a33d61e8b31"
+    },
+    {
+      "path": "galaxy_assets/map-038.bin.zlib",
+      "bytes": 5700803,
+      "sha256": "dbf0561a75a7a0085e9935c5139ee9257b85ba11490dd99166966502f6fab672"
+    },
+    {
+      "path": "galaxy_assets/map-040.bin.zlib",
+      "bytes": 1508245,
+      "sha256": "65c83394456a12854615b4558b264f137d578204f2f3365f650af9e991b27993"
+    },
+    {
+      "path": "galaxy_assets/map-048.bin.zlib",
+      "bytes": 385742,
+      "sha256": "c68c8c11a54033b041924989f5daf81c77001a66630cb70c2318e167db05fa9e"
+    },
+    {
+      "path": "galaxy_assets/map-050.bin.zlib",
+      "bytes": 99276,
+      "sha256": "9105b1630b44c7391175b76174ee63d51ccc7015a4993ab568b1a791b0f0cf73"
+    },
+    {
+      "path": "galaxy_assets/map-058.bin.zlib",
+      "bytes": 25893,
+      "sha256": "bc32ab367a2f8d8c2b3ca102b4b1eab6f0152535e67f6f66b5eb8bb5aebee8da"
+    },
+    {
+      "path": "galaxy_assets/map-060.bin.zlib",
+      "bytes": 6795,
+      "sha256": "35f0f4c173198c0a5e0d060e4fa092c2ef76020d74e3678e82038fea01426f15"
+    },
+    {
+      "path": "galaxy_assets/map-068.bin.zlib",
+      "bytes": 1837,
+      "sha256": "d2d449dc31629e7281eb5b91b6349e3269d5510e7fd13b8264e5c36419334b99"
+    },
+    {
+      "path": "galaxy_assets/map-070.bin.zlib",
+      "bytes": 545,
+      "sha256": "ee3848d13bc48e1f493918fad98bedf8be5a96f5b25d0d0aeafc5246cea8c438"
+    },
+    {
+      "path": "galaxy_assets/map-078.bin.zlib",
+      "bytes": 2259717,
+      "sha256": "03711c21910e0a95630a2ba3be5984d7265e69ad1cc7d457e46edd10186062e5"
+    },
+    {
+      "path": "galaxy_assets/map-080.bin.zlib",
+      "bytes": 684817,
+      "sha256": "87079e114d64f835fde973fa12ba10fe6519673e095a482ced439efc520f06da"
+    },
+    {
+      "path": "galaxy_assets/map-088.bin.zlib",
+      "bytes": 183404,
+      "sha256": "c524c5b8b0c298a7ba3fe250bc9489e9a8ddb8c5b30b774f402826402268a921"
+    },
+    {
+      "path": "galaxy_assets/map-090.bin.zlib",
+      "bytes": 47599,
+      "sha256": "d96f5409c9c1fb84c3372a78a6c345fc0bf22fdfb98444147b8477992f6d3bba"
+    },
+    {
+      "path": "galaxy_assets/map-098.bin.zlib",
+      "bytes": 12586,
+      "sha256": "8aa75976773a32e1b943a8bc4ad377c2d6b71d59091ec864c7407d5aeb1a1a5d"
+    },
+    {
+      "path": "galaxy_assets/map-0a0.bin.zlib",
+      "bytes": 3373,
+      "sha256": "cf2d9e4af28f1c83b9ea8e018a8a32aabc42bc1e0107b079c8ee3bd19d71d190"
+    },
+    {
+      "path": "galaxy_assets/map-0a8.bin.zlib",
+      "bytes": 941,
+      "sha256": "85aede7396d6ec6ccc6d0dc873402721cb6fbd40796e05ef9180dd076f7932ee"
+    },
+    {
+      "path": "galaxy_assets/map-0b0.bin.zlib",
+      "bytes": 276,
+      "sha256": "48f743cb95147899bef9e76660a089260f9e81f3d1394a3b472a1471d20b470e"
+    },
+    {
+      "path": "galaxy_assets/map-0b8.bin.zlib",
+      "bytes": 153,
+      "sha256": "35570175641ecbf8ec29584c75d42285e22a65c216d2bb71b3e3929bf2a851f5"
+    },
+    {
+      "path": "galaxy_assets/map-0c0.bin.zlib",
+      "bytes": 57,
+      "sha256": "2b285a368284ec3462c507b7c21797c0f6e8e7ef09806f68e78c40928cde9f91"
+    },
+    {
+      "path": "galaxy_assets/map-0c8.bin.zlib",
+      "bytes": 37,
+      "sha256": "d63f547a539563ce9dfc14fccf353b73042d09aa5a1190a5414a404512ea86f9"
+    },
+    {
+      "path": "galaxy_assets/map-0d0.bin.zlib",
+      "bytes": 28,
+      "sha256": "27ca08cfaf7fea6bfbb617874ec847571eb5d5273ba19f55919bbc122138dcc3"
+    },
+    {
+      "path": "galaxy_assets/map-0d8.bin.zlib",
+      "bytes": 19,
+      "sha256": "2828b6c7e73b8afd9521d994b8d8f882c54a96a5df7c096a7d3bcacb75af127c"
+    },
+    {
+      "path": "galaxy_assets/map-0e0.bin.zlib",
+      "bytes": 14,
+      "sha256": "5260f8058575a19e663b4402e8d66597d538924134291edbbd6d96408e5481df"
+    },
+    {
+      "path": "galaxy_assets/map-0e8.bin.zlib",
+      "bytes": 14,
+      "sha256": "52313eecdb51024e90e005cfa5c6cbd03a5c3594b76280d85409a1cac194cff2"
+    },
+    {
+      "path": "galaxy_assets/map-0f0.bin.zlib",
+      "bytes": 16,
+      "sha256": "f118b39083527fb38e23a247173d578104c62438a326c2aa41f8315070ba2549"
+    },
+    {
+      "path": "galaxy_assets/map-0f8.bin.zlib",
+      "bytes": 761614,
+      "sha256": "c34079f3c06caf76964fd34e32912b70b90054b0ccbe6a61a751dfbe8498c338"
+    },
+    {
+      "path": "galaxy_assets/map-100.bin.zlib",
+      "bytes": 368909,
+      "sha256": "641509898748821f99af364c338b3d748f95b02f8d2b4fba0f40c9f96f7ff82c"
+    },
+    {
+      "path": "galaxy_assets/map-108.bin.zlib",
+      "bytes": 113557,
+      "sha256": "3d68f15da6ddd311a8c1d703a46b2b6e208fafb25c4660477900fb2a0a59ac47"
+    },
+    {
+      "path": "galaxy_assets/map-110.bin.zlib",
+      "bytes": 32003,
+      "sha256": "50702a4dbfb3bdf2bd1c3a2dbe41fd0e61e06dd6bd42880b5a6d92365423ab1f"
+    },
+    {
+      "path": "galaxy_assets/map-118.bin.zlib",
+      "bytes": 10011,
+      "sha256": "c5b0e34ba0cdf400db935841501f83a563cacda760373330c94dfe8390978ff6"
+    },
+    {
+      "path": "galaxy_assets/map-120.bin.zlib",
+      "bytes": 3091,
+      "sha256": "782f5e29c8380a1c5af5a7a9d316f84d66c0415b73297ad512a5f470b40cda52"
+    },
+    {
+      "path": "galaxy_assets/map-128.bin.zlib",
+      "bytes": 981,
+      "sha256": "eb1116a08f4eb3e86c6ea1f04b0bfb9b1ee1d9458b7e20ca43700bdd3f4c9511"
+    },
+    {
+      "path": "galaxy_assets/map-130.bin.zlib",
+      "bytes": 313,
+      "sha256": "16932d4a77fa342b3e8410a9ee4639cedc7e45ab760df78ed1eca5459a415021"
+    },
+    {
+      "path": "galaxy_assets/map-138.bin.zlib",
+      "bytes": 1851639,
+      "sha256": "d77faad910e72065764f6b7958a76396c9807132f3c00c2e2a237dd5cf96a316"
+    },
+    {
+      "path": "galaxy_assets/map-140.bin.zlib",
+      "bytes": 784407,
+      "sha256": "f9883e6b8ea41b7c415cd1ddeae3a0e56df20859773cda2416aa6c46bb1c3a17"
+    },
+    {
+      "path": "galaxy_assets/override-boxels.json.zlib",
+      "bytes": 1003,
+      "sha256": "79d6d6af30803a68e145cbeb12b904840e11af63ae404d294dac0430485c1632"
+    },
+    {
+      "path": "galaxy_assets/overrides.json.zlib",
+      "bytes": 12426,
+      "sha256": "6c01061507d1feca8214c749537064deb137f70184b4e51f765fe8562d2d5034"
+    },
+    {
+      "path": "galaxy_data.py",
+      "bytes": 13099,
+      "sha256": "f81a5595a359fd908263d98b02e1f49c1ca0c299caa98c88443656125dec3872"
+    },
+    {
+      "path": "primary_constructor.py",
+      "bytes": 18226,
+      "sha256": "911f2cfc89a16000424de79fafc854f2dff3fb0e17c14f29cf9b758d2fb3a20e"
+    },
+    {
+      "path": "primary_tables.json",
+      "bytes": 1450,
+      "sha256": "bb03ddac40edd0d930193204abc80ea329a4d228903df9a4fff915b025be3255"
+    },
+    {
+      "path": "scheduler_constants.py",
+      "bytes": 7086,
+      "sha256": "e57ff5feb42e1f9db9f4b00e9ed0c08b4e1e8119a0105c52ca8b8a2c5c31d2f5"
+    },
+    {
+      "path": "scheduler_context.py",
+      "bytes": 5309,
+      "sha256": "56ac46ca4d1503527406fd4ee61c1e31d71a438353a6bca244f7573ec91074fa"
+    },
+    {
+      "path": "scheduler_fixed.py",
+      "bytes": 7606,
+      "sha256": "7d02bfcaf81e9320bcd3c1a62a6223d2df02875d0c64d0dcfb42e9319683d222"
+    },
+    {
+      "path": "stellar.py",
+      "bytes": 2966,
+      "sha256": "e329f3f004b44abaf5ec636c8bb3cbe552f3fa84e918b8d7bbd0cb31011230d6"
+    },
+    {
+      "path": "vendor/formation/ELEMENT-PARAMETERS.json",
+      "bytes": 750,
+      "sha256": "4f191396d6ffe4aa93261b5a73cef5c8ab5e18a46e3bccc45255166843a4b095"
+    },
+    {
+      "path": "vendor/formation/STELLAR-SPECTRAL-TABLES.json",
+      "bytes": 561236,
+      "sha256": "e9dbc4c123f56ea08810ed5cac9810ce37a3d69211e86bb217813db121d369dc"
+    },
+    {
+      "path": "vendor/formation/accepted/disk_update.py",
+      "bytes": 7196,
+      "sha256": "9fe54f5c78bfc2d23ec04aeaee011c0e22f696bc46cb881ba71bf203292c5389"
+    },
+    {
+      "path": "vendor/formation/accepted/fixed.py",
+      "bytes": 4303,
+      "sha256": "7e654951c48accd682fa61776dbc6a536e085ad43455861e72cf3118a9e2aaf2"
+    },
+    {
+      "path": "vendor/formation/accepted/gas_model.py",
+      "bytes": 1056,
+      "sha256": "a51616216807c77718dd5e0122787afb3e092471c907d71e300e643e24f7abe6"
+    },
+    {
+      "path": "vendor/formation/accepted/hill.py",
+      "bytes": 558,
+      "sha256": "2f57950bed7d010e52ec4a12384a226cb52f2ce7db131281a8de4dde5a45239b"
+    },
+    {
+      "path": "vendor/formation/accepted/recovered_rng.py",
+      "bytes": 5493,
+      "sha256": "4e6fb3ee69ad4fa46762b72dd807832a26ff13c3097fbcb497af3f4fe330f7f8"
+    },
+    {
+      "path": "vendor/formation/accepted/stellar_mass_accessor.py",
+      "bytes": 1500,
+      "sha256": "ea90c163801d3b40e13fae237b0106e6a062404bf9d1792fa92a3d59e13f412f"
+    },
+    {
+      "path": "vendor/formation/accepted/stellar_radius.py",
+      "bytes": 2152,
+      "sha256": "6508ca139666fda129e80e2ed87afe19256ddcb4b8737c7467beb9c6d9cc10b0"
+    },
+    {
+      "path": "vendor/formation/belt_detail.py",
+      "bytes": 2225,
+      "sha256": "9c8614877778cb51eca1a92dfb3734a764f3837de24bae6c723c0f71a8a27398"
+    },
+    {
+      "path": "vendor/formation/body_factory.py",
+      "bytes": 3463,
+      "sha256": "f3370901a292664aa6317aff9a606a3d754052543de1d793f631ea8b67f7a655"
+    },
+    {
+      "path": "vendor/formation/body_geometry.py",
+      "bytes": 2579,
+      "sha256": "0dcef316a9f6fdc66b1916104d4420e877aaac28c75c004c3b687552ec529f24"
+    },
+    {
+      "path": "vendor/formation/disk_constructor.py",
+      "bytes": 3314,
+      "sha256": "d22ed0d2aa620ef6ef960517583fd648c404b177e40bfb340973db1fb4a9f16e"
+    },
+    {
+      "path": "vendor/formation/disk_state.py",
+      "bytes": 1252,
+      "sha256": "0d93309b5e7067f2e03900f6764c931f8a54640498c85a8b263f274fe5a3a6e1"
+    },
+    {
+      "path": "vendor/formation/embryo.py",
+      "bytes": 4225,
+      "sha256": "94f82b81fc8dab9bfdabd43ce9dd63723e6d4c598a6a9dde15310bbc425f7b50"
+    },
+    {
+      "path": "vendor/formation/final_orbits.py",
+      "bytes": 3040,
+      "sha256": "39d229df268d1bd7c7b60b8afb39bfd11fe195bd3bb1cadaebfac28e77a742be"
+    },
+    {
+      "path": "vendor/formation/growth.py",
+      "bytes": 6025,
+      "sha256": "4255040a0e25872ea49dd6172a5c705c2ad8a468bcb0c31f6bd866e3aff13cdd"
+    },
+    {
+      "path": "vendor/formation/initial_materials.py",
+      "bytes": 2698,
+      "sha256": "cf503de352ca5a47395f24e66df3fe33418bf44273c1abe4a473fc62d5b37c31"
+    },
+    {
+      "path": "vendor/formation/root_disk.py",
+      "bytes": 2167,
+      "sha256": "770717a742b301c17e2e88acbdb180b1b2c609cb97b59cc152e1f85278d16ae9"
+    },
+    {
+      "path": "vendor/formation/stellar_evolution.py",
+      "bytes": 7813,
+      "sha256": "6463a84a7ff2632200a8780428e7f70cc48f1f1c20829e56f3337c1701ff50fc"
+    },
+    {
+      "path": "vendor/formation/stellar_geometry.py",
+      "bytes": 2453,
+      "sha256": "d04d039dac8e2d37e389d9f1a9a50fffa5a36885abc898db4e4702abca19cd5a"
+    },
+    {
+      "path": "vendor/formation/stellar_record.py",
+      "bytes": 9326,
+      "sha256": "f1f746530a9b6230ea7a37b21065ce1bcbe20e702efdab6990012525d13ec5b0"
+    },
+    {
+      "path": "vendor/formation/stellar_setup.py",
+      "bytes": 4338,
+      "sha256": "3c262bb9ba93ef56ddbd031b37ce6886b8f8fe76566c9067dbce98802d1b43af"
+    },
+    {
+      "path": "vendor/formation/stellar_tree.py",
+      "bytes": 4964,
+      "sha256": "38e07a9b3f4de9cef7d5e8fcb3498e4b30bd0b0968d8dce20c12ebfa7c89116b"
+    },
+    {
+      "path": "vendor/formation/stream.py",
+      "bytes": 1451,
+      "sha256": "d111aa772487572eebe70d796d24289f2ecb1def39aaa7114133071e4d48a0f3"
+    }
+  ],
+  "file_count": 81,
+  "uncompressed_bytes": 26906898,
+  "runtime": "Python standard library plus bundled literal assets; no executable/emulator/observation dependency"
+}

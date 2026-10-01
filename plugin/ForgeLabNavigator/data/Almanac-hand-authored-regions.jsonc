@@ -1,0 +1,2550 @@
+/*
+ * Hand-authored named sectors, as one or more bounding spheres in galactic
+ * light-years with Sol at the origin. Names and spheres only — whether a region
+ * is permit-locked is recorded once, in permit-locked-regions.jsonc.
+ *
+ * Sources: EDSM and Spansh — factual system names, coordinates and region bounds.
+ * Sphere membership is cross-checked across both services.
+ *
+ * Credit and licence terms: ATTRIBUTIONS.md. Acquisition, revisions, derivation and
+ * corrections: data/astro/SOURCES.md.
+ */
+[
+  {
+    "name": "IC 348 Sector",
+    "spheres": [
+      { "cx": -402.66016, "cy": -383.08203, "cz": -1130.80273, "r": 26 }
+    ]
+  },
+  {
+    "name": "NGC 3228 Sector",
+    "spheres": [{ "cx": 1733.04688, "cy": 141.95312, "cz": 330.5957, "r": 26 }]
+  },
+  {
+    "name": "Shudun Sector",
+    "spheres": [{ "cx": -3.51953, "cy": 34.16016, "cz": 12.98047, "r": 30 }]
+  },
+  {
+    "name": "NGC 6281 Sector",
+    "spheres": [{ "cx": 329.46484, "cy": 54.44141, "cz": 1523.83984, "r": 37 }]
+  },
+  {
+    "name": "NGC 7160 Sector",
+    "spheres": [
+      { "cx": -2478.12109, "cy": 286.47656, "cz": -617.86523, "r": 38 }
+    ]
+  },
+  {
+    "name": "Bei Dou Sector",
+    "spheres": [{ "cx": -33.64844, "cy": 72.48828, "cz": -20.64062, "r": 40 }]
+  },
+  {
+    "name": "ICZ",
+    "spheres": [
+      { "cx": 11, "cy": -118, "cz": 56, "r": 40 },
+      { "cx": 17, "cy": -122, "cz": 32, "r": 40 },
+      { "cx": 32, "cy": -170, "cz": 13, "r": 40 },
+      { "cx": 34, "cy": -115, "cz": 100, "r": 40 },
+      { "cx": 45, "cy": -118, "cz": 85, "r": 40 },
+      { "cx": 53, "cy": -130, "cz": 14, "r": 40 },
+      { "cx": 62, "cy": -105, "cz": 22, "r": 40 },
+      { "cx": 65, "cy": -117, "cz": 47, "r": 40 },
+      { "cx": 67, "cy": -119, "cz": 24, "r": 40 },
+      { "cx": 75, "cy": -135, "cz": 19, "r": 40 },
+      { "cx": 78, "cy": -100, "cz": 16, "r": 40 },
+      { "cx": 79, "cy": -167, "cz": 25, "r": 40 },
+      { "cx": 81, "cy": -150, "cz": 96, "r": 40 },
+      { "cx": 82, "cy": -131, "cz": 0, "r": 40 },
+      { "cx": 92, "cy": -95, "cz": 11, "r": 40 },
+      { "cx": 106, "cy": -95, "cz": 0, "r": 40 }
+    ]
+  },
+  {
+    "name": "NGC 3330 Sector",
+    "spheres": [{ "cx": 2824.55859, "cy": 193.51953, "cz": 714.72266, "r": 43 }]
+  },
+  {
+    "name": "NGC 1444 Sector",
+    "spheres": [
+      { "cx": -2065.66016, "cy": -88.70703, "cz": -3318.625, "r": 46 }
+    ]
+  },
+  {
+    "name": "NGC 3590 Sector",
+    "spheres": [
+      { "cx": 5015.87109, "cy": -18.78125, "cz": 1945.52734, "r": 47 }
+    ]
+  },
+  {
+    "name": "NGC 2645 Sector",
+    "spheres": [
+      { "cx": 5410.67188, "cy": -275.22656, "cz": -492.41016, "r": 48 }
+    ]
+  },
+  {
+    "name": "NGC 6322 Sector",
+    "spheres": [
+      { "cx": 823.50781, "cy": -175.75781, "cz": 3139.01953, "r": 48 }
+    ]
+  },
+  {
+    "name": "NGC 6178 Sector",
+    "spheres": [{ "cx": 1218.22656, "cy": 69.32031, "cz": 3076.88477, "r": 49 }]
+  },
+  {
+    "name": "Trianguli Sector",
+    "spheres": [{ "cx": 60.85156, "cy": -47.94922, "cz": -81.32031, "r": 50 }]
+  },
+  {
+    "name": "Tascheter Sector",
+    "spheres": [{ "cx": 1.46094, "cy": -22.39844, "cz": -62.74023, "r": 50 }]
+  },
+  {
+    "name": "Yin Sector",
+    "spheres": [{ "cx": 6.42969, "cy": 20.21094, "cz": -46.98047, "r": 50 }]
+  },
+  {
+    "name": "Jastreb Sector",
+    "spheres": [{ "cx": -12.51953, "cy": 3.82031, "cz": -40.75, "r": 50 }]
+  },
+  {
+    "name": "Cephei Sector",
+    "spheres": [{ "cx": -107.98047, "cy": 30.05078, "cz": -42.23047, "r": 50 }]
+  },
+  {
+    "name": "Puppis Sector",
+    "spheres": [{ "cx": 56.69141, "cy": 5.23828, "cz": -28.21094, "r": 50 }]
+  },
+  {
+    "name": "Sharru Sector",
+    "spheres": [{ "cx": 37.87891, "cy": 60.19922, "cz": -34.04297, "r": 50 }]
+  },
+  {
+    "name": "Herculis Sector",
+    "spheres": [{ "cx": -73, "cy": 70.64844, "cz": 38.49023, "r": 50 }]
+  },
+  {
+    "name": "Core Sys Sector",
+    "spheres": [{ "cx": 0, "cy": 0, "cz": 0, "r": 50 }]
+  },
+  {
+    "name": "NGC 2169 Sector",
+    "spheres": [
+      { "cx": 921.21484, "cy": -173.53516, "cz": -3299.41602, "r": 50 }
+    ]
+  },
+  {
+    "name": "NGC 2343 Sector",
+    "spheres": [
+      { "cx": 2402.10547, "cy": -66.03906, "cz": -2461.5293, "r": 51 }
+    ]
+  },
+  {
+    "name": "NGC 5606 Sector",
+    "spheres": [
+      { "cx": 4178.73438, "cy": 102.79297, "cz": 4149.66406, "r": 52 }
+    ]
+  },
+  {
+    "name": "NGC 6134 Sector",
+    "spheres": [
+      { "cx": 1264.10547, "cy": -10.40234, "cz": 2698.57812, "r": 53 }
+    ]
+  },
+  {
+    "name": "Tr 10 Sector",
+    "spheres": [{ "cx": 1369.04297, "cy": 14.44922, "cz": -172.95117, "r": 57 }]
+  },
+  {
+    "name": "NGC 6885 Sector",
+    "spheres": [
+      { "cx": -1769.88281, "cy": -139.42188, "cz": 806.58203, "r": 57 }
+    ]
+  },
+  {
+    "name": "Mel 227 Sector",
+    "spheres": [{ "cx": 238.19531, "cy": -198.52734, "cz": 236.53906, "r": 57 }]
+  },
+  {
+    "name": "NGC 2527 Sector",
+    "spheres": [{ "cx": 1790.95312, "cy": 64.98438, "cz": -793.64062, "r": 58 }]
+  },
+  {
+    "name": "NGC 7063 Sector",
+    "spheres": [
+      { "cx": -2200.44141, "cy": -386.83984, "cz": 266.2832, "r": 59 }
+    ]
+  },
+  {
+    "name": "Crucis Sector",
+    "spheres": [{ "cx": 75.91016, "cy": 8.32812, "cz": 44.83984, "r": 60 }]
+  },
+  {
+    "name": "Hydrae Sector",
+    "spheres": [{ "cx": 77.57031, "cy": 84.07031, "cz": 69.4707, "r": 60 }]
+  },
+  {
+    "name": "Scorpii Sector",
+    "spheres": [{ "cx": 37.69141, "cy": 0.51953, "cz": 126.83008, "r": 60 }]
+  },
+  {
+    "name": "Piscium Sector",
+    "spheres": [{ "cx": -44.83984, "cy": -54.75, "cz": -29.10938, "r": 60 }]
+  },
+  {
+    "name": "Capricorni Sector",
+    "spheres": [{ "cx": -58.37891, "cy": -119.78906, "cz": 107.34961, "r": 60 }]
+  },
+  {
+    "name": "M18 Sector",
+    "spheres": [
+      { "cx": -1037.49219, "cy": -73.82422, "cz": 4100.12891, "r": 62 }
+    ]
+  },
+  {
+    "name": "NGC 1502 Sector",
+    "spheres": [
+      { "cx": -1572.28906, "cy": 359.08203, "cz": -2140.41211, "r": 63 }
+    ]
+  },
+  {
+    "name": "NGC 2395 Sector",
+    "spheres": [
+      { "cx": 674.53906, "cy": 404.00781, "cz": -1473.32031, "r": 64 }
+    ]
+  },
+  {
+    "name": "NGC 2362 Sector",
+    "spheres": [
+      { "cx": 3826.82812, "cy": -449.91797, "cz": -2381.99023, "r": 66 }
+    ]
+  },
+  {
+    "name": "Alrai Sector",
+    "spheres": [{ "cx": -38.60156, "cy": 23.42188, "cz": 68.25977, "r": 70 }]
+  },
+  {
+    "name": "Lyncis Sector",
+    "spheres": [{ "cx": -68.51953, "cy": 65.10156, "cz": -141.03906, "r": 70 }]
+  },
+  {
+    "name": "Antliae Sector",
+    "spheres": [{ "cx": 175.87109, "cy": 65.89062, "cz": 29.18945, "r": 70 }]
+  },
+  {
+    "name": "Ceti Sector",
+    "spheres": [{ "cx": -14.10156, "cy": -116.94922, "cz": -32.5, "r": 70 }]
+  },
+  {
+    "name": "NGC 2129 Sector",
+    "spheres": [{ "cx": 567.78906, "cy": 8.62109, "cz": -4907.25391, "r": 72 }]
+  },
+  {
+    "name": "NGC 6633 Sector",
+    "spheres": [{ "cx": -717.30078, "cy": 175.43359, "cz": 983.66602, "r": 72 }]
+  },
+  {
+    "name": "IC 5146 Sector",
+    "spheres": [
+      { "cx": -2759.04688, "cy": -266.45312, "cz": -212.29688, "r": 73 }
+    ]
+  },
+  {
+    "name": "NGC 2925 Sector",
+    "spheres": [{ "cx": 2505.64453, "cy": -52.77344, "cz": 263.35352, "r": 74 }]
+  },
+  {
+    "name": "NGC 3247 Sector",
+    "spheres": [
+      { "cx": 4886.86328, "cy": -26.44141, "cz": 1272.93359, "r": 74 }
+    ]
+  },
+  {
+    "name": "NGC 6167 Sector",
+    "spheres": [
+      { "cx": 1508.11328, "cy": -81.90234, "cz": 3278.87109, "r": 74 }
+    ]
+  },
+  {
+    "name": "Steph 1 Sector",
+    "spheres": [{ "cx": -1125.6875, "cy": 339.39453, "cz": 480.14648, "r": 74 }]
+  },
+  {
+    "name": "NGC 2367 Sector",
+    "spheres": [
+      { "cx": 5384.37891, "cy": -433.42969, "cz": -3686.76172, "r": 77 }
+    ]
+  },
+  {
+    "name": "NGC 6425 Sector",
+    "spheres": [{ "cx": 96.70312, "cy": -73.71484, "cz": 2637.19922, "r": 77 }]
+  },
+  {
+    "name": "NGC 2175 Sector",
+    "spheres": [{ "cx": 940.29688, "cy": 37.07031, "cz": -5225.95117, "r": 78 }]
+  },
+  {
+    "name": "NGC 2324 Sector",
+    "spheres": [
+      { "cx": 2088.35938, "cy": 218.74219, "cz": -3167.16211, "r": 78 }
+    ]
+  },
+  {
+    "name": "Shui Wei Sector",
+    "spheres": [{ "cx": 67.51172, "cy": -119.44922, "cz": 24.85938, "r": 80 }]
+  },
+  {
+    "name": "Arietis Sector",
+    "spheres": [{ "cx": -72.16016, "cy": -76.82812, "cz": -135.36914, "r": 80 }]
+  },
+  {
+    "name": "NGC 6604 Sector",
+    "spheres": [
+      { "cx": -1735.61328, "cy": 164.05469, "cz": 5248.01172, "r": 81 }
+    ]
+  },
+  {
+    "name": "NGC 3519 Sector",
+    "spheres": [
+      { "cx": 4392.18359, "cy": -90.03516, "cz": 1642.16992, "r": 82 }
+    ]
+  },
+  {
+    "name": "NGC 1662 Sector",
+    "spheres": [
+      { "cx": 178.12891, "cy": -512.99609, "cz": -1317.4707, "r": 83 }
+    ]
+  },
+  {
+    "name": "NGC 3766 Sector",
+    "spheres": [{ "cx": 5194.02734, "cy": 0, "cz": 2323.40039, "r": 83 }]
+  },
+  {
+    "name": "NGC 6250 Sector",
+    "spheres": [{ "cx": 926.94531, "cy": -88.57812, "cz": 2661.82812, "r": 83 }]
+  },
+  {
+    "name": "IC 4996 Sector",
+    "spheres": [
+      { "cx": -5466.14844, "cy": 128.18359, "cz": 1423.82617, "r": 83 }
+    ]
+  },
+  {
+    "name": "IC 4651 Sector",
+    "spheres": [
+      { "cx": 977.73438, "cy": -398.58984, "cz": 2700.95703, "r": 85 }
+    ]
+  },
+  {
+    "name": "NGC 2423 Sector",
+    "spheres": [
+      { "cx": 1925.25391, "cy": 156.97656, "cz": -1587.05859, "r": 88 }
+    ]
+  },
+  {
+    "name": "NGC 2579 Sector",
+    "spheres": [{ "cx": 3250.51562, "cy": 17.64453, "cz": -889.24023, "r": 89 }]
+  },
+  {
+    "name": "NGC 6520 Sector",
+    "spheres": [
+      { "cx": -259.73828, "cy": -251.08594, "cz": 5127.28906, "r": 90 }
+    ]
+  },
+  {
+    "name": "NGC 2670 Sector",
+    "spheres": [{ "cx": 3858.6875, "cy": -243, "cz": -168.47461, "r": 91 }]
+  },
+  {
+    "name": "NGC 659 Sector",
+    "spheres": [
+      { "cx": -4882.00391, "cy": -165.4375, "cz": -4010.12305, "r": 92 }
+    ]
+  },
+  {
+    "name": "NGC 4103 Sector",
+    "spheres": [
+      { "cx": 4713.57031, "cy": 111.41406, "cz": 2464.19336, "r": 93 }
+    ]
+  },
+  {
+    "name": "M6 Sector",
+    "spheres": [{ "cx": 94.28906, "cy": -19.42578, "cz": 1587.08203, "r": 93 }]
+  },
+  {
+    "name": "M39 Sector",
+    "spheres": [
+      { "cx": -1058.13672, "cy": -42.53906, "cz": -46.19922, "r": 93 }
+    ]
+  },
+  {
+    "name": "NGC 1342 Sector",
+    "spheres": [
+      { "cx": -884.15234, "cy": -576.25781, "cz": -1896.07422, "r": 95 }
+    ]
+  },
+  {
+    "name": "NGC 3572 Sector",
+    "spheres": [{ "cx": 6089.70312, "cy": 22.72266, "cz": 2301.10742, "r": 95 }]
+  },
+  {
+    "name": "NGC 654 Sector",
+    "spheres": [
+      { "cx": -5168.34375, "cy": -46.49609, "cz": -4200.19922, "r": 97 }
+    ]
+  },
+  {
+    "name": "NGC 6242 Sector",
+    "spheres": [{ "cx": 923.09375, "cy": 154.51953, "cz": 3569.33203, "r": 97 }]
+  },
+  {
+    "name": "NGC 1778 Sector",
+    "spheres": [
+      { "cx": -921.61719, "cy": -167.16797, "cz": -4697.5293, "r": 98 }
+    ]
+  },
+  {
+    "name": "M93 Sector",
+    "spheres": [
+      { "cx": 2930.09375, "cy": 11.79688, "cz": -1684.87891, "r": 99 }
+    ]
+  },
+  {
+    "name": "NGC 2910 Sector",
+    "spheres": [
+      { "cx": 8461.80469, "cy": -178.01172, "cz": 784.97852, "r": 99 }
+    ]
+  },
+  {
+    "name": "NGC 6416 Sector",
+    "spheres": [{ "cx": 126.60547, "cy": -67.57031, "cz": 2415.74219, "r": 99 }]
+  },
+  {
+    "name": "NGC 6834 Sector",
+    "spheres": [
+      { "cx": -6141.51172, "cy": 141.15234, "cz": 2772.99805, "r": 99 }
+    ]
+  },
+  {
+    "name": "NGC 7510 Sector",
+    "spheres": [{ "cx": -6320.33984, "cy": 0, "cz": -2426.15039, "r": 99 }]
+  },
+  {
+    "name": "Pegasi Sector",
+    "spheres": [
+      { "cx": -170.26953, "cy": -95.17188, "cz": -19.18945, "r": 100 }
+    ]
+  },
+  {
+    "name": "Tucanae Sector",
+    "spheres": [{ "cx": 105.60938, "cy": -218.21875, "cz": 159.4707, "r": 100 }]
+  },
+  {
+    "name": "NGC 225 Sector",
+    "spheres": [
+      { "cx": -1814.48828, "cy": -41.08203, "cz": -1133.81836, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 2391 Sector",
+    "spheres": [{ "cx": 565.85938, "cy": -68.47656, "cz": 3.95117, "r": 100 }]
+  },
+  {
+    "name": "M16 Sector",
+    "spheres": [
+      { "cx": -1666.35547, "cy": 79.58594, "cz": 5450.40625, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6716 Sector",
+    "spheres": [
+      { "cx": -672.92188, "cy": -428.59375, "cz": 2443.02734, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 7822 Sector",
+    "spheres": [
+      { "cx": -2443.97266, "cy": 302.39844, "cz": -1332.49805, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 281 Sector",
+    "spheres": [
+      { "cx": -6661.27734, "cy": -877.875, "cz": -4342.43164, "r": 100 }
+    ]
+  },
+  {
+    "name": "LBN 623 Sector",
+    "spheres": [
+      { "cx": -499.50781, "cy": -18.84766, "cz": -331.87109, "r": 100 }
+    ]
+  },
+  {
+    "name": "Heart Sector",
+    "spheres": [
+      { "cx": -5321.125, "cy": 117.80469, "cz": -5284.10547, "r": 100 }
+    ]
+  },
+  {
+    "name": "Soul Sector",
+    "spheres": [
+      { "cx": -5095.17969, "cy": 117.80469, "cz": -5502.29492, "r": 100 }
+    ]
+  },
+  {
+    "name": "Pleiades Sector",
+    "spheres": [
+      { "cx": -81.75391, "cy": -149.41406, "cz": -343.34766, "r": 100 }
+    ]
+  },
+  {
+    "name": "Perseus Dark Region",
+    "spheres": [
+      { "cx": -359.89844, "cy": -316.98438, "cz": -1045.22461, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 1333 Sector",
+    "spheres": [
+      { "cx": -381.21094, "cy": -383.42969, "cz": -957.94531, "r": 100 }
+    ]
+  },
+  {
+    "name": "California Sector",
+    "spheres": [
+      { "cx": -332.56641, "cy": -213.03125, "cz": -918.70508, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 1491 Sector",
+    "spheres": [
+      { "cx": -4908.28906, "cy": -174.52344, "cz": -8710.81152, "r": 100 }
+    ]
+  },
+  {
+    "name": "Hind Sector",
+    "spheres": [
+      { "cx": -32.95312, "cy": -206.39062, "cz": -557.28516, "r": 100 }
+    ]
+  },
+  {
+    "name": "Trifid of the North Sector",
+    "spheres": [
+      { "cx": -643.14844, "cy": -402.24609, "cz": -2486.87695, "r": 100 }
+    ]
+  },
+  {
+    "name": "Flaming Star Sector",
+    "spheres": [
+      { "cx": -233.46875, "cy": -68.22266, "cz": -1682.50977, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 1931 Sector",
+    "spheres": [
+      { "cx": -743.83984, "cy": 36.65234, "cz": -6960.26953, "r": 100 }
+    ]
+  },
+  {
+    "name": "Crab Sector",
+    "spheres": [
+      { "cx": 558.51953, "cy": -707.39453, "cz": -6941.73242, "r": 100 }
+    ]
+  },
+  {
+    "name": "Running Man Sector",
+    "spheres": [
+      { "cx": 586.15625, "cy": -425.38281, "cz": -1079.56836, "r": 100 }
+    ]
+  },
+  {
+    "name": "Orion Sector",
+    "spheres": [
+      { "cx": 616.52344, "cy": -446.42578, "cz": -1107.67383, "r": 100 }
+    ]
+  },
+  {
+    "name": "Spirograph Sector",
+    "spheres": [
+      { "cx": 577.89844, "cy": -452.66406, "cz": -819.22266, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 1999 Sector",
+    "spheres": [
+      { "cx": 549.36719, "cy": -374.51172, "cz": -926.56445, "r": 100 }
+    ]
+  },
+  {
+    "name": "Flame Sector",
+    "spheres": [
+      { "cx": 428.26172, "cy": -280.66797, "cz": -858.96289, "r": 100 }
+    ]
+  },
+  {
+    "name": "Horsehead Sector",
+    "spheres": [
+      { "cx": 411.68359, "cy": -272.99219, "cz": -811.47461, "r": 100 }
+    ]
+  },
+  {
+    "name": "Witch Head Sector",
+    "spheres": [
+      { "cx": 369.41406, "cy": -401.57812, "cz": -715.72852, "r": 100 }
+    ]
+  },
+  {
+    "name": "Monkey Head Sector",
+    "spheres": [
+      { "cx": 1133.31641, "cy": 44.67969, "cz": -6298.69922, "r": 100 }
+    ]
+  },
+  {
+    "name": "Jellyfish Sector",
+    "spheres": [
+      { "cx": 789.77734, "cy": 252.96484, "cz": -4930.74609, "r": 100 }
+    ]
+  },
+  {
+    "name": "Rosette Sector",
+    "spheres": [
+      { "cx": 2346.98438, "cy": -175.72266, "cz": -4748.76562, "r": 100 }
+    ]
+  },
+  {
+    "name": "Cone Sector",
+    "spheres": [
+      { "cx": 855.44141, "cy": 84.45312, "cz": -2025.11328, "r": 100 }
+    ]
+  },
+  {
+    "name": "Seagull Sector",
+    "spheres": [
+      { "cx": 2656.38672, "cy": -159.12891, "cz": -2712.61523, "r": 100 }
+    ]
+  },
+  {
+    "name": "Skull and Crossbones Neb. Sector",
+    "spheres": [
+      { "cx": 13388.46094, "cy": 104.71875, "cz": -6762.99805, "r": 100 }
+    ]
+  },
+  {
+    "name": "Pencil Sector",
+    "spheres": [{ "cx": 813.80078, "cy": 2.84375, "cz": -44.07422, "r": 100 }]
+  },
+  {
+    "name": "NGC 3199 Sector",
+    "spheres": [
+      { "cx": 14577.19531, "cy": -261.78516, "cz": 3526.59375, "r": 100 }
+    ]
+  },
+  {
+    "name": "Eta Carina Sector",
+    "spheres": [
+      { "cx": 8582.39453, "cy": -141.36719, "cz": 2706.01758, "r": 100 }
+    ]
+  },
+  {
+    "name": "Statue of Liberty Sector",
+    "spheres": [
+      { "cx": 5589.73047, "cy": -73.30078, "cz": 2179.34375, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 5367 Sector",
+    "spheres": [{ "cx": 1348.625, "cy": 755.99219, "cz": 1421.1543, "r": 100 }]
+  },
+  {
+    "name": "NGC 6188 Sector",
+    "spheres": [
+      { "cx": 1704.75391, "cy": -84.46875, "cz": 4055.45117, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6357 Sector",
+    "spheres": [
+      { "cx": 964.84375, "cy": 142.23828, "cz": 8091.43555, "r": 100 }
+    ]
+  },
+  {
+    "name": "Trifid Sector",
+    "spheres": [
+      { "cx": -633.71094, "cy": -27.22656, "cz": 5161.16992, "r": 100 }
+    ]
+  },
+  {
+    "name": "Lagoon Sector",
+    "spheres": [
+      { "cx": -470.27344, "cy": -94.24219, "cz": 4474.36719, "r": 100 }
+    ]
+  },
+  {
+    "name": "Eagle Sector",
+    "spheres": [
+      { "cx": -2046.40234, "cy": 97.73438, "cz": 6693.48047, "r": 100 }
+    ]
+  },
+  {
+    "name": "Omega Sector",
+    "spheres": [
+      { "cx": -1432.63672, "cy": -76.79297, "cz": 5309.58203, "r": 100 }
+    ]
+  },
+  {
+    "name": "B133 Sector",
+    "spheres": [
+      { "cx": -474.18359, "cy": -111.46875, "cz": 873.33984, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 1287 Sector",
+    "spheres": [{ "cx": -358.35547, "cy": -8.72656, "cz": 933.54492, "r": 100 }]
+  },
+  {
+    "name": "R CrA Sector",
+    "spheres": [{ "cx": 0, "cy": -128.39062, "cz": 399.89453, "r": 100 }]
+  },
+  {
+    "name": "NGC 6820 Sector",
+    "spheres": [
+      { "cx": -5577.41406, "cy": -11.34375, "cz": 3338.01367, "r": 100 }
+    ]
+  },
+  {
+    "name": "Crescent Sector",
+    "spheres": [
+      { "cx": -4836.49219, "cy": 209.37891, "cz": 1250.80273, "r": 100 }
+    ]
+  },
+  {
+    "name": "Sadr Region Sector",
+    "spheres": [
+      { "cx": -1794.68359, "cy": 53.71094, "cz": 365.84961, "r": 100 }
+    ]
+  },
+  {
+    "name": "Veil West Sector",
+    "spheres": [
+      { "cx": -1395.62891, "cy": -194.41797, "cz": 418.70898, "r": 100 }
+    ]
+  },
+  {
+    "name": "North America Sector",
+    "spheres": [
+      { "cx": -1893.85547, "cy": -33.16016, "cz": 149.04883, "r": 100 }
+    ]
+  },
+  {
+    "name": "B352 Sector",
+    "spheres": [{ "cx": -1896.42969, "cy": 9.94922, "cz": 115.99023, "r": 100 }]
+  },
+  {
+    "name": "Pelican Sector",
+    "spheres": [{ "cx": -1891.56641, "cy": 3.31641, "cz": 178.80469, "r": 100 }]
+  },
+  {
+    "name": "Veil East Sector",
+    "spheres": [
+      { "cx": -1914.36328, "cy": -305.97266, "cz": 491.52539, "r": 100 }
+    ]
+  },
+  {
+    "name": "Iris Sector",
+    "spheres": [
+      { "cx": -1410.35547, "cy": 367.96094, "cz": -354.25781, "r": 100 }
+    ]
+  },
+  {
+    "name": "Cocoon Sector",
+    "spheres": [
+      { "cx": -3175.87891, "cy": -306.70703, "cz": -244.37109, "r": 100 }
+    ]
+  },
+  {
+    "name": "Cave Sector",
+    "spheres": [
+      { "cx": -2250.06641, "cy": 108.87109, "cz": -827.86328, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 7538 Sector",
+    "spheres": [
+      { "cx": -8372.94141, "cy": 125.66016, "cz": -3298.18945, "r": 100 }
+    ]
+  },
+  {
+    "name": "Bubble Sector",
+    "spheres": [
+      { "cx": -6573.64062, "cy": 24.78516, "cz": -2682.65234, "r": 100 }
+    ]
+  },
+  {
+    "name": "Aries Dark Region",
+    "spheres": [
+      { "cx": -93.57031, "cy": -184.53516, "cz": -257.08398, "r": 100 }
+    ]
+  },
+  {
+    "name": "Taurus Dark Region",
+    "spheres": [
+      { "cx": -62.37891, "cy": -103.47656, "cz": -443.84766, "r": 100 }
+    ]
+  },
+  {
+    "name": "Orion Dark Region",
+    "spheres": [
+      { "cx": 596.77344, "cy": -311.86719, "cz": -1340.37305, "r": 100 }
+    ]
+  },
+  {
+    "name": "Messier 78 Sector",
+    "spheres": [
+      { "cx": 665.03125, "cy": -395.19922, "cz": -1400.55469, "r": 100 }
+    ]
+  },
+  {
+    "name": "Puppis Dark Region",
+    "spheres": [
+      { "cx": 1440.26562, "cy": -286.21484, "cz": -306.13672, "r": 100 }
+    ]
+  },
+  {
+    "name": "Puppis Dark Region B Sector",
+    "spheres": [{ "cx": 1352.29688, "cy": 0, "cz": -362.3457, "r": 100 }]
+  },
+  {
+    "name": "Vela Dark Region",
+    "spheres": [{ "cx": 991.1875, "cy": -121.87109, "cz": -51.94531, "r": 100 }]
+  },
+  {
+    "name": "Musca Dark Region",
+    "spheres": [{ "cx": 415.92578, "cy": -68.19531, "cz": 249.91211, "r": 100 }]
+  },
+  {
+    "name": "Coalsack Sector",
+    "spheres": [{ "cx": 418.85938, "cy": -0.87109, "cz": 273.05078, "r": 100 }]
+  },
+  {
+    "name": "Chamaeleon Sector",
+    "spheres": [
+      { "cx": 483.30078, "cy": -152.70312, "cz": 301.99805, "r": 100 }
+    ]
+  },
+  {
+    "name": "Coalsack Dark Region",
+    "spheres": [{ "cx": 450.26562, "cy": -9.07422, "cz": 259.96094, "r": 100 }]
+  },
+  {
+    "name": "Lupus Dark Region B Sector",
+    "spheres": [{ "cx": 173.39062, "cy": 81.61328, "cz": 429.15625, "r": 100 }]
+  },
+  {
+    "name": "Lupus Dark Region",
+    "spheres": [{ "cx": 158.46484, "cy": 126.79297, "cz": 412.81055, "r": 100 }]
+  },
+  {
+    "name": "Scorpius Dark Region",
+    "spheres": [{ "cx": 110.22656, "cy": 0, "cz": 477.44141, "r": 100 }]
+  },
+  {
+    "name": "IC 4604 Sector",
+    "spheres": [{ "cx": 62.72266, "cy": 182.41797, "cz": 568.14453, "r": 100 }]
+  },
+  {
+    "name": "Pipe (stem) Sector",
+    "spheres": [{ "cx": 12.15234, "cy": 51.39453, "cz": 497.20312, "r": 100 }]
+  },
+  {
+    "name": "Ophiuchus Dark Region B Sector",
+    "spheres": [{ "cx": -42.85156, "cy": 169.29688, "cz": 489.79883, "r": 100 }]
+  },
+  {
+    "name": "Scutum Dark Region",
+    "spheres": [{ "cx": -274.66016, "cy": 11.34375, "cz": 589.00977, "r": 100 }]
+  },
+  {
+    "name": "B92 Sector",
+    "spheres": [{ "cx": -142.89062, "cy": -6.80859, "cz": 634.0625, "r": 100 }]
+  },
+  {
+    "name": "Snake Sector",
+    "spheres": [{ "cx": -18.70703, "cy": 73.12109, "cz": 595.23438, "r": 100 }]
+  },
+  {
+    "name": "Pipe (bowl) Sector",
+    "spheres": [{ "cx": -11.3125, "cy": 36.61719, "cz": 498.5293, "r": 100 }]
+  },
+  {
+    "name": "Ophiuchus Dark Region C Sector",
+    "spheres": [{ "cx": -9.00781, "cy": 63.37109, "cz": 516.04492, "r": 100 }]
+  },
+  {
+    "name": "Rho Ophiuchi Sector",
+    "spheres": [{ "cx": 52.26953, "cy": 152.01562, "cz": 473.45508, "r": 100 }]
+  },
+  {
+    "name": "Ophiuchus Dark Region",
+    "spheres": [{ "cx": 43.33984, "cy": 152.03516, "cz": 495.38672, "r": 100 }]
+  },
+  {
+    "name": "Corona Austr. Dark Region",
+    "spheres": [{ "cx": -8.52734, "cy": -177.85156, "cz": 488.56641, "r": 100 }]
+  },
+  {
+    "name": "Aquila Dark Region",
+    "spheres": [
+      { "cx": -719.23047, "cy": -17.45312, "cz": 694.55273, "r": 100 }
+    ]
+  },
+  {
+    "name": "Vulpecula Dark Region",
+    "spheres": [{ "cx": -543.80859, "cy": 45.33984, "cz": 353.15234, "r": 100 }]
+  },
+  {
+    "name": "Cepheus Dark Region",
+    "spheres": [
+      { "cx": -1373.48438, "cy": 243.10938, "cz": -120.16406, "r": 100 }
+    ]
+  },
+  {
+    "name": "Cepheus Dark Region B Sector",
+    "spheres": [
+      { "cx": -945.42578, "cy": 241.92188, "cz": -218.26953, "r": 100 }
+    ]
+  },
+  {
+    "name": "Bow-Tie Sector",
+    "spheres": [
+      { "cx": -2985.95312, "cy": 601.75, "cz": -1723.94141, "r": 100 }
+    ]
+  },
+  {
+    "name": "Skull Sector",
+    "spheres": [
+      { "cx": -369.61719, "cy": -1543.29297, "cz": -204.04102, "r": 100 }
+    ]
+  },
+  {
+    "name": "Little Dumbbell Sector",
+    "spheres": [
+      { "cx": -1560.71484, "cy": -382.69531, "cz": -1351.93164, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 289 Sector",
+    "spheres": [
+      { "cx": -1118.43359, "cy": 83.04297, "cz": -1277.57812, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 1360 Sector",
+    "spheres": [
+      { "cx": 437.24219, "cy": -925.14844, "cz": -513.75586, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 1501 Sector",
+    "spheres": [
+      { "cx": -2071.58984, "cy": 413.77344, "cz": -2915.01367, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 1514 Sector",
+    "spheres": [
+      { "cx": -202.23438, "cy": -218.6875, "cz": -807.39844, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 1535 Sector",
+    "spheres": [
+      { "cx": 1422.89844, "cy": -2733.25, "cz": -2853.89062, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2022 Sector",
+    "spheres": [
+      { "cx": 2934.63281, "cy": -1966.59375, "cz": -9781.63867, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 2149 Sector",
+    "spheres": [
+      { "cx": -1688.68359, "cy": 1312.09766, "cz": -6875.08203, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 2165 Sector",
+    "spheres": [
+      { "cx": 9024.47656, "cy": -3006.29297, "cz": -10272.34375, "r": 100 }
+    ]
+  },
+  {
+    "name": "Butterfly Sector",
+    "spheres": [
+      { "cx": 1747.16797, "cy": 188.37109, "cz": -2431.44336, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2371/2 Sector",
+    "spheres": [
+      { "cx": 661.47266, "cy": 1497.67188, "cz": -4084.04688, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2392 Sector",
+    "spheres": [
+      { "cx": 234.63281, "cy": 239.23438, "cz": -726.43945, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2438 Sector",
+    "spheres": [
+      { "cx": 2508.30469, "cy": 228.79297, "cz": -1973.8418, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2440 Sector",
+    "spheres": [
+      { "cx": 4653.64062, "cy": 238.69141, "cz": -3282.78125, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2452 Sector",
+    "spheres": [
+      { "cx": 9387.19141, "cy": -183.25, "cz": -4700.75391, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 2448 Sector",
+    "spheres": [
+      { "cx": 8457.82422, "cy": -2355.25391, "cz": 2393.32227, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2792 Sector",
+    "spheres": [
+      { "cx": 8157.05078, "cy": 586.27734, "cz": -599.01562, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2818 Sector",
+    "spheres": [
+      { "cx": 8322.63672, "cy": 1271.05078, "cz": -1169.66992, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2867 Sector",
+    "spheres": [
+      { "cx": 12208.21094, "cy": -1274.62891, "cz": 1759.23047, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 2899 Sector",
+    "spheres": [{ "cx": 6434.56641, "cy": -430.78125, "cz": 812.875, "r": 100 }]
+  },
+  {
+    "name": "IC 2501 Sector",
+    "spheres": [
+      { "cx": 18754.05469, "cy": -1906.9375, "cz": 3645.41797, "r": 100 }
+    ]
+  },
+  {
+    "name": "Eight Burst Sector",
+    "spheres": [{ "cx": 2049.63281, "cy": 450.94531, "cz": 75.15625, "r": 100 }]
+  },
+  {
+    "name": "IC 2553 Sector",
+    "spheres": [
+      { "cx": 12855.33984, "cy": -1261.05078, "cz": 3565.10156, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 3195 Sector",
+    "spheres": [
+      { "cx": 4656.55469, "cy": -1895.47656, "cz": 2331.83008, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 3211 Sector",
+    "spheres": [
+      { "cx": 8797.9375, "cy": -785.83594, "cz": 2572.69727, "r": 100 }
+    ]
+  },
+  {
+    "name": "Ghost of Jupiter Sector",
+    "spheres": [
+      { "cx": 1171.69141, "cy": 743.95703, "cz": -183.48242, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 2621 Sector",
+    "spheres": [
+      { "cx": 14360.99219, "cy": -1297.00781, "cz": 5685.91992, "r": 100 }
+    ]
+  },
+  {
+    "name": "Owl Sector",
+    "spheres": [
+      { "cx": -624.37891, "cy": 1847.16406, "cz": -1018.89062, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 3699 Sector",
+    "spheres": [
+      { "cx": 4150.35156, "cy": 102.09375, "cz": 1736.13086, "r": 100 }
+    ]
+  },
+  {
+    "name": "Blue planetary Sector",
+    "spheres": [
+      { "cx": 4527.26562, "cy": 409.69141, "cz": 2082.31055, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 4361 Sector",
+    "spheres": [
+      { "cx": 3106.92969, "cy": 3241.21094, "cz": 1389.79688, "r": 100 }
+    ]
+  },
+  {
+    "name": "Lemon Slice Sector",
+    "spheres": [
+      { "cx": -3085.35938, "cy": 2548.82812, "cz": -2057.67773, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 4191 Sector",
+    "spheres": [
+      { "cx": 11811.59375, "cy": -1204.96094, "cz": 8148.27148, "r": 100 }
+    ]
+  },
+  {
+    "name": "Spiral Planetary Sector",
+    "spheres": [
+      { "cx": 1415.32812, "cy": -105.56641, "cz": 1074.29297, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 5307 Sector",
+    "spheres": [
+      { "cx": 5879.41797, "cy": 1490.00781, "cz": 5368.64453, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 5315 Sector",
+    "spheres": [
+      { "cx": 6499.57812, "cy": -644.44141, "cz": 5282.0625, "r": 100 }
+    ]
+  },
+  {
+    "name": "Retina Sector",
+    "spheres": [
+      { "cx": 1867.97656, "cy": 811.80078, "cz": 2202.64258, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 5873 Sector",
+    "spheres": [
+      { "cx": 13791.82031, "cy": 8670.95312, "cz": 25191.27344, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 5882 Sector",
+    "spheres": [
+      { "cx": 4616.64062, "cy": 1543.22656, "cz": 7331.10352, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 5979 Sector",
+    "spheres": [
+      { "cx": 5443.01172, "cy": -831.33594, "cz": 7119.16406, "r": 100 }
+    ]
+  },
+  {
+    "name": "Fine Ring Sector",
+    "spheres": [{ "cx": 513.22656, "cy": 34.89844, "cz": 857.54297, "r": 100 }]
+  },
+  {
+    "name": "NGC 6058 Sector",
+    "spheres": [
+      { "cx": -5472.94922, "cy": 6794.40625, "cz": 2587.05273, "r": 100 }
+    ]
+  },
+  {
+    "name": "White Eyed Pea Sector",
+    "spheres": [
+      { "cx": -3882.09375, "cy": 7841.04688, "cz": 8212.63281, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6153 Sector",
+    "spheres": [
+      { "cx": 1670.20703, "cy": 508.18359, "cz": 5110.00586, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6210 Sector",
+    "spheres": [
+      { "cx": -2861.42969, "cy": 3248.40625, "cz": 3057.78906, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 4634 Sector",
+    "spheres": [
+      { "cx": -51.17578, "cy": 1584.9375, "cz": 7330.44141, "r": 100 }
+    ]
+  },
+  {
+    "name": "Bug Sector",
+    "spheres": [{ "cx": 619.48828, "cy": 65.26953, "cz": 3342.45117, "r": 100 }]
+  },
+  {
+    "name": "Box Sector",
+    "spheres": [
+      { "cx": -1759.3125, "cy": 2758.8125, "cz": 10292.41406, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6326 Sector",
+    "spheres": [
+      { "cx": 4041.22266, "cy": -1606.91406, "cz": 10103.77734, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6337 Sector",
+    "spheres": [
+      { "cx": 901.19531, "cy": -94.06641, "cz": 4815.49609, "r": 100 }
+    ]
+  },
+  {
+    "name": "Little Ghost Sector",
+    "spheres": [
+      { "cx": -204.10547, "cy": 503.68359, "cz": 4869.76758, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 4663 Sector",
+    "spheres": [
+      { "cx": 1523.71094, "cy": -927.08984, "cz": 6250.50586, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6445 Sector",
+    "spheres": [
+      { "cx": -632.58594, "cy": 306.07031, "cz": 4444.78906, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 4673 Sector",
+    "spheres": [
+      { "cx": -840.65625, "cy": -561.13281, "cz": 13361.82812, "r": 100 }
+    ]
+  },
+  {
+    "name": "Red Spider Sector",
+    "spheres": [{ "cx": -526.0625, "cy": 36.65234, "cz": 2953.28906, "r": 100 }]
+  },
+  {
+    "name": "NGC 6565 Sector",
+    "spheres": [
+      { "cx": -359.02734, "cy": -473.17188, "cz": 5870.02539, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6563 Sector",
+    "spheres": [
+      { "cx": 80.49219, "cy": -393.89844, "cz": 3073.81836, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6572 Sector",
+    "spheres": [
+      { "cx": -4333.99219, "cy": 1608.39453, "cz": 6282.48047, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6567 Sector",
+    "spheres": [
+      { "cx": -851.64453, "cy": -51.3125, "cz": 4112.42969, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 4699 Sector",
+    "spheres": [
+      { "cx": 4137.37891, "cy": -4924.67578, "cz": 19464.83203, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6629 Sector",
+    "spheres": [
+      { "cx": -1041.14844, "cy": -568.92188, "cz": 6289.06445, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6644 Sector",
+    "spheres": [
+      { "cx": -1420.00781, "cy": -1245.23438, "cz": 9616.28516, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 4776 Sector",
+    "spheres": [
+      { "cx": -855.50781, "cy": -5561.94922, "cz": 23330.94141, "r": 100 }
+    ]
+  },
+  {
+    "name": "Ring Sector",
+    "spheres": [
+      { "cx": -1977.24219, "cy": 552.30859, "cz": 998.77734, "r": 100 }
+    ]
+  },
+  {
+    "name": "Phantom Streak Sector",
+    "spheres": [
+      { "cx": -3611.90625, "cy": -306.19141, "cz": 5395.40234, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6751 Sector",
+    "spheres": [
+      { "cx": -3105.76172, "cy": -657.87109, "cz": 5557.10742, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 4846 Sector",
+    "spheres": [
+      { "cx": -11325.47656, "cy": -4178.53516, "cz": 21663.64062, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 1297 Sector",
+    "spheres": [
+      { "cx": 215.14844, "cy": -2871.37109, "cz": 7249.06445, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6781 Sector",
+    "spheres": [
+      { "cx": -3394.65625, "cy": -266.91406, "cz": 3796.7168, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6790 Sector",
+    "spheres": [
+      { "cx": -2014.89844, "cy": -362.125, "cz": 2588.25195, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6803 Sector",
+    "spheres": [
+      { "cx": -4117.21484, "cy": -407.53516, "cz": 3920.77148, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6804 Sector",
+    "spheres": [
+      { "cx": -3573.00781, "cy": -400.99609, "cz": 3474.59766, "r": 100 }
+    ]
+  },
+  {
+    "name": "Little Gem Sector",
+    "spheres": [
+      { "cx": -2493.94922, "cy": -1844.14062, "cz": 5136.08398, "r": 100 }
+    ]
+  },
+  {
+    "name": "Blinking Sector",
+    "spheres": [
+      { "cx": -1938.14453, "cy": 443.09766, "cz": 217.39844, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6842 Sector",
+    "spheres": [
+      { "cx": -5476.70312, "cy": 62.83203, "cz": 2449.84766, "r": 100 }
+    ]
+  },
+  {
+    "name": "Dumbbell Sector",
+    "spheres": [
+      { "cx": -958.21094, "cy": -70.98438, "cz": 535.52734, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6852 Sector",
+    "spheres": [
+      { "cx": -3276.57812, "cy": -1251.89844, "cz": 3563.25391, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6884 Sector",
+    "spheres": [
+      { "cx": -2457.28516, "cy": 309.00391, "cz": 340.97656, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6879 Sector",
+    "spheres": [
+      { "cx": -17024.14453, "cy": -3171.5625, "cz": 10971.3125, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6886 Sector",
+    "spheres": [
+      { "cx": -7731.72266, "cy": -1205.875, "cz": 4445.9375, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 6891 Sector",
+    "spheres": [
+      { "cx": -6740.87891, "cy": -1781.75781, "cz": 4861.67578, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 4997 Sector",
+    "spheres": [
+      { "cx": -6681.43359, "cy": -1526.47266, "cz": 4126.53711, "r": 100 }
+    ]
+  },
+  {
+    "name": "Blue Flash Sector",
+    "spheres": [
+      { "cx": -2599.53125, "cy": 500.30469, "cz": 1411.42969, "r": 100 }
+    ]
+  },
+  {
+    "name": "Fetus Sector",
+    "spheres": [
+      { "cx": -2881.56641, "cy": 277.95312, "cz": -171.19727, "r": 100 }
+    ]
+  },
+  {
+    "name": "Saturn Sector",
+    "spheres": [
+      { "cx": -2623.43359, "cy": -2952.78906, "cz": 3382.10742, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 7026 Sector",
+    "spheres": [
+      { "cx": -5998.94141, "cy": 41.88672, "cz": 104.71094, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 7027 Sector",
+    "spheres": [
+      { "cx": -3380.22266, "cy": -207.56641, "cz": 301.67773, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 7048 Sector",
+    "spheres": [
+      { "cx": -5596.30859, "cy": -166.13281, "cz": 117.22656, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 5117 Sector",
+    "spheres": [
+      { "cx": -2988.11719, "cy": -266.68359, "cz": 5.21484, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 5148 Sector",
+    "spheres": [
+      { "cx": -86.22656, "cy": -2376.86719, "cz": 1828.4043, "r": 100 }
+    ]
+  },
+  {
+    "name": "IC 5217 Sector",
+    "spheres": [
+      { "cx": -9198.58594, "cy": -884.61719, "cz": -1721.46875, "r": 100 }
+    ]
+  },
+  {
+    "name": "Helix Sector",
+    "spheres": [
+      { "cx": -222.85938, "cy": -583.28516, "cz": 304.50195, "r": 100 }
+    ]
+  },
+  {
+    "name": "NGC 7354 Sector",
+    "spheres": [
+      { "cx": -3995.72266, "cy": 168.55469, "cz": -1282.88672, "r": 100 }
+    ]
+  },
+  {
+    "name": "Blue Snowball Sector",
+    "spheres": [
+      { "cx": -5024.05469, "cy": -1663.03516, "cz": -1497.73438, "r": 100 }
+    ]
+  },
+  {
+    "name": "G2 Dust Cloud Sector",
+    "spheres": [{ "cx": 27.125, "cy": -22.49609, "cz": 27899.97656, "r": 100 }]
+  },
+  {
+    "name": "Regor Sector",
+    "spheres": [
+      { "cx": 1099.23828, "cy": -146.67188, "cz": -133.58008, "r": 100 }
+    ]
+  },
+  {
+    "name": "Sidgoir",
+    "spheres": [{ "cx": -24120, "cy": 10, "cz": -1220, "r": 100 }]
+  },
+  {
+    "name": "NGC 2384 Sector",
+    "spheres": [
+      { "cx": 5674.66016, "cy": -288.94141, "cz": -3914.68555, "r": 101 }
+    ]
+  },
+  {
+    "name": "NGC 6025 Sector",
+    "spheres": [
+      { "cx": 1426.48047, "cy": -258.18359, "cz": 1999.84961, "r": 101 }
+    ]
+  },
+  {
+    "name": "NGC 2571 Sector",
+    "spheres": [
+      { "cx": 4083.74219, "cy": -275.02344, "cz": -1559.42969, "r": 102 }
+    ]
+  },
+  {
+    "name": "Pismis 4 Sector",
+    "spheres": [
+      { "cx": 1912.67578, "cy": -80.82031, "cz": -245.01953, "r": 102 }
+    ]
+  },
+  {
+    "name": "Stock 14 Sector",
+    "spheres": [
+      { "cx": 6333.31641, "cy": -85.51953, "cz": 2980.23242, "r": 102 }
+    ]
+  },
+  {
+    "name": "M103 Sector",
+    "spheres": [
+      { "cx": -5639.37109, "cy": -224.90234, "cz": -4405.96094, "r": 105 }
+    ]
+  },
+  {
+    "name": "NGC 2451A Sector",
+    "spheres": [
+      { "cx": 757.34375, "cy": -93.33594, "cz": -240.24414, "r": 105 }
+    ]
+  },
+  {
+    "name": "NGC 6169 Sector",
+    "spheres": [
+      { "cx": 1261.91016, "cy": 156.59375, "cz": 3357.25586, "r": 105 }
+    ]
+  },
+  {
+    "name": "NGC 1981 Sector",
+    "spheres": [
+      { "cx": 578.95703, "cy": -423.23828, "cz": -1084.28711, "r": 106 }
+    ]
+  },
+  {
+    "name": "NGC 3680 Sector",
+    "spheres": [
+      { "cx": 2802.88672, "cy": 889.54688, "cz": 846.24219, "r": 107 }
+    ]
+  },
+  {
+    "name": "M26 Sector",
+    "spheres": [
+      { "cx": -2112.12891, "cy": -264.09375, "cz": 4766.29297, "r": 107 }
+    ]
+  },
+  {
+    "name": "NGC 2547 Sector",
+    "spheres": [{ "cx": 1457.24609, "cy": -218.75781, "cz": -137.75, "r": 108 }]
+  },
+  {
+    "name": "NGC 6823 Sector",
+    "spheres": [
+      { "cx": -5310.76953, "cy": -10.76953, "cz": 3140.78125, "r": 108 }
+    ]
+  },
+  {
+    "name": "NGC 6910 Sector",
+    "spheres": [
+      { "cx": -3635.86328, "cy": 129.47656, "cz": 726.51758, "r": 108 }
+    ]
+  },
+  {
+    "name": "NGC 1857 Sector",
+    "spheres": [
+      { "cx": -1246.36328, "cy": 140.66016, "cz": -6071.80273, "r": 109 }
+    ]
+  },
+  {
+    "name": "Mel 111 Sector",
+    "spheres": [{ "cx": 21.80859, "cy": 308.30078, "cz": -23.9668, "r": 109 }]
+  },
+  {
+    "name": "M29 Sector",
+    "spheres": [
+      { "cx": -3642.46875, "cy": 39.16406, "cz": 847.62891, "r": 109 }
+    ]
+  },
+  {
+    "name": "Tr 2 Sector",
+    "spheres": [
+      { "cx": -1431.65234, "cy": -144.19141, "cz": -1556.91211, "r": 112 }
+    ]
+  },
+  {
+    "name": "NGC 6819 Sector",
+    "spheres": [
+      { "cx": -7320.41406, "cy": 1138.13281, "cz": 2099.0957, "r": 112 }
+    ]
+  },
+  {
+    "name": "NGC 6939 Sector",
+    "spheres": [
+      { "cx": -3751.41797, "cy": 822.29688, "cz": -387.67188, "r": 113 }
+    ]
+  },
+  {
+    "name": "IC 2395 Sector",
+    "spheres": [
+      { "cx": 2290.90234, "cy": -152.42969, "cz": -136.10547, "r": 114 }
+    ]
+  },
+  {
+    "name": "NGC 744 Sector",
+    "spheres": [
+      { "cx": -2892.49609, "cy": -425.51562, "cz": -2641.21289, "r": 115 }
+    ]
+  },
+  {
+    "name": "NGC 2301 Sector",
+    "spheres": [
+      { "cx": 1530.08984, "cy": 14.87109, "cz": -2392.53125, "r": 116 }
+    ]
+  },
+  {
+    "name": "M47 Sector",
+    "spheres": [
+      { "cx": 1241.61328, "cy": 86.52734, "cz": -1005.43945, "r": 117 }
+    ]
+  },
+  {
+    "name": "NGC 2516 Sector",
+    "spheres": [{ "cx": 1276.15234, "cy": -364.36719, "cz": 87, "r": 117 }]
+  },
+  {
+    "name": "NGC 2539 Sector",
+    "spheres": [
+      { "cx": 3519.28906, "cy": 856.72266, "cz": -2585.17578, "r": 117 }
+    ]
+  },
+  {
+    "name": "IC 2581 Sector",
+    "spheres": [{ "cx": 7722.32031, "cy": 0, "cz": 2011.51367, "r": 117 }]
+  },
+  {
+    "name": "NGC 1528 Sector",
+    "spheres": [
+      { "cx": -1183.84766, "cy": 13.24609, "cz": -2235.89648, "r": 118 }
+    ]
+  },
+  {
+    "name": "NGC 6259 Sector",
+    "spheres": [
+      { "cx": 1037.94141, "cy": -87.95312, "cz": 3194.45508, "r": 118 }
+    ]
+  },
+  {
+    "name": "NGC 6087 Sector",
+    "spheres": [
+      { "cx": 1543.78906, "cy": -273.85547, "cz": 2451.49414, "r": 119 }
+    ]
+  },
+  {
+    "name": "NGC 1545 Sector",
+    "spheres": [
+      { "cx": -1038.79297, "cy": 8.09766, "cz": -2074.42578, "r": 122 }
+    ]
+  },
+  {
+    "name": "M50 Sector",
+    "spheres": [
+      { "cx": 2015.20703, "cy": -63.45703, "cz": -2261.81836, "r": 124 }
+    ]
+  },
+  {
+    "name": "NGC 2632 Sector",
+    "spheres": [
+      { "cx": 221.48438, "cy": 327.75391, "cz": -464.35156, "r": 125 }
+    ]
+  },
+  {
+    "name": "NGC 6546 Sector",
+    "spheres": [
+      { "cx": -388.70312, "cy": -74.76172, "cz": 3034.29102, "r": 125 }
+    ]
+  },
+  {
+    "name": "M36 Sector",
+    "spheres": [
+      { "cx": -412.07422, "cy": 75.04688, "cz": -4279.55078, "r": 126 }
+    ]
+  },
+  {
+    "name": "NGC 2251 Sector",
+    "spheres": [
+      { "cx": 1733.50781, "cy": 7.55859, "cz": -3967.84375, "r": 126 }
+    ]
+  },
+  {
+    "name": "NGC 7039 Sector",
+    "spheres": [
+      { "cx": -3096.74609, "cy": -91.96484, "cz": 108.14062, "r": 127 }
+    ]
+  },
+  {
+    "name": "Stock 2 Sector",
+    "spheres": [
+      { "cx": -718.91406, "cy": -32.82422, "cz": -679.8418, "r": 130 }
+    ]
+  },
+  {
+    "name": "Tr 14 Sector",
+    "spheres": [
+      { "cx": 8501.81641, "cy": -93.30469, "cz": 2664.30664, "r": 130 }
+    ]
+  },
+  {
+    "name": "NGC 5138 Sector",
+    "spheres": [
+      { "cx": 5131.33984, "cy": 395.59375, "cz": 3937.41602, "r": 132 }
+    ]
+  },
+  {
+    "name": "NGC 2281 Sector",
+    "spheres": [
+      { "cx": -151.60938, "cy": 535.15234, "cz": -1732.92383, "r": 133 }
+    ]
+  },
+  {
+    "name": "NGC 3293 Sector",
+    "spheres": [
+      { "cx": 7299.60547, "cy": 13.24609, "cz": 2079.34766, "r": 133 }
+    ]
+  },
+  {
+    "name": "NGC 7686 Sector",
+    "spheres": [
+      { "cx": -3010.24609, "cy": -655.51562, "cz": -1065.98438, "r": 133 }
+    ]
+  },
+  {
+    "name": "NGC 7235 Sector",
+    "spheres": [
+      { "cx": -8983.79688, "cy": 128.58984, "cz": -2024.58594, "r": 134 }
+    ]
+  },
+  {
+    "name": "NGC 2335 Sector",
+    "spheres": [
+      { "cx": 3185.22266, "cy": -104.81641, "cz": -3344.8125, "r": 135 }
+    ]
+  },
+  {
+    "name": "NGC 5823 Sector",
+    "spheres": [
+      { "cx": 2435.16797, "cy": 169.67969, "cz": 3028.73828, "r": 136 }
+    ]
+  },
+  {
+    "name": "NGC 6866 Sector",
+    "spheres": [
+      { "cx": -4616.57812, "cy": 560.05078, "cz": 863.96875, "r": 138 }
+    ]
+  },
+  {
+    "name": "NGC 2483 Sector",
+    "spheres": [
+      { "cx": 4895.04688, "cy": 28.32812, "cz": -2303.43359, "r": 142 }
+    ]
+  },
+  {
+    "name": "NGC 6709 Sector",
+    "spheres": [
+      { "cx": -2349.8125, "cy": 287.60547, "cz": 2591.48047, "r": 143 }
+    ]
+  },
+  {
+    "name": "Hyades Sector",
+    "spheres": [{ "cx": 0, "cy": -56.67578, "cz": -138.88086, "r": 144 }]
+  },
+  {
+    "name": "NGC 2567 Sector",
+    "spheres": [
+      { "cx": 5126.51953, "cy": 286.27734, "cz": -1886.19336, "r": 144 }
+    ]
+  },
+  {
+    "name": "Col 394 Sector",
+    "spheres": [
+      { "cx": -566.87109, "cy": -371.35547, "cz": 2145.51953, "r": 144 }
+    ]
+  },
+  {
+    "name": "NGC 5617 Sector",
+    "spheres": [
+      { "cx": 3553.99219, "cy": -8.72656, "cz": 3516.96875, "r": 146 }
+    ]
+  },
+  {
+    "name": "NGC 1027 Sector",
+    "spheres": [
+      { "cx": -1756.25391, "cy": 65.96484, "cz": -1805.99609, "r": 147 }
+    ]
+  },
+  {
+    "name": "Col 135 Sector",
+    "spheres": [
+      { "cx": 942.32812, "cy": -198.29688, "cz": -365.50586, "r": 150 }
+    ]
+  },
+  {
+    "name": "IC 410 Sector",
+    "spheres": [
+      { "cx": -1225.55469, "cy": -345.51953, "cz": -10926.05273, "r": 150 }
+    ]
+  },
+  {
+    "name": "NGC 3603 Sector",
+    "spheres": [
+      { "cx": 18594.82031, "cy": -174.53125, "cz": 7362.21094, "r": 150 }
+    ]
+  },
+  {
+    "name": "NGC 2482 Sector",
+    "spheres": [
+      { "cx": 3850.51562, "cy": 152.85938, "cz": -2081.96484, "r": 153 }
+    ]
+  },
+  {
+    "name": "NGC 2232 Sector",
+    "spheres": [
+      { "cx": 655.20312, "cy": -154.73828, "cz": -956.90234, "r": 154 }
+    ]
+  },
+  {
+    "name": "NGC 6193 Sector",
+    "spheres": [
+      { "cx": 1490.625, "cy": -105.26562, "cz": 3461.19336, "r": 154 }
+    ]
+  },
+  {
+    "name": "IC 2602 Sector",
+    "spheres": [{ "cx": 497.46484, "cy": -45.26953, "cz": 177.13867, "r": 155 }]
+  },
+  {
+    "name": "NGC 2533 Sector",
+    "spheres": [
+      { "cx": 10181.95312, "cy": 249.5625, "cz": -4155.17969, "r": 160 }
+    ]
+  },
+  {
+    "name": "NGC 6208 Sector",
+    "spheres": [
+      { "cx": 1056.1875, "cy": -309.23047, "cz": 2855.24805, "r": 161 }
+    ]
+  },
+  {
+    "name": "M21 Sector",
+    "spheres": [
+      { "cx": -526.55469, "cy": -27.4375, "cz": 3894.46875, "r": 161 }
+    ]
+  },
+  {
+    "name": "Col 140 Sector",
+    "spheres": [
+      { "cx": 1186.89453, "cy": -181.42578, "cz": -548.42188, "r": 162 }
+    ]
+  },
+  {
+    "name": "NGC 6811 Sector",
+    "spheres": [
+      { "cx": -3810.01172, "cy": 816.57031, "cz": 706.14453, "r": 162 }
+    ]
+  },
+  {
+    "name": "NGC 2414 Sector",
+    "spheres": [
+      { "cx": 8802.37109, "cy": 393.31641, "cz": -7026.83984, "r": 164 }
+    ]
+  },
+  {
+    "name": "NGC 6231 Sector",
+    "spheres": [
+      { "cx": 1150.01172, "cy": 84.81641, "cz": 3882.36914, "r": 165 }
+    ]
+  },
+  {
+    "name": "NGC 6664 Sector",
+    "spheres": [
+      { "cx": -1545.53906, "cy": -33.16016, "cz": 3471.33984, "r": 166 }
+    ]
+  },
+  {
+    "name": "M34 Sector",
+    "spheres": [
+      { "cx": -931.64062, "cy": -438.33984, "cz": -1263.64648, "r": 171 }
+    ]
+  },
+  {
+    "name": "NGC 1664 Sector",
+    "spheres": [
+      { "cx": -1227.67969, "cy": -27.29688, "cz": -3712.16406, "r": 171 }
+    ]
+  },
+  {
+    "name": "Mel 22 Sector",
+    "spheres": [
+      { "cx": -104.13672, "cy": -195.38672, "cz": -437.12695, "r": 172 }
+    ]
+  },
+  {
+    "name": "NGC 2477 Sector",
+    "spheres": [
+      { "cx": 3808.06641, "cy": -403.21484, "cz": -1120.77539, "r": 175 }
+    ]
+  },
+  {
+    "name": "NGC 6530 Sector",
+    "spheres": [
+      { "cx": -461.04688, "cy": -106.03516, "cz": 4314.13867, "r": 177 }
+    ]
+  },
+  {
+    "name": "M25 Sector",
+    "spheres": [
+      { "cx": -473.52344, "cy": -158.48828, "cz": 1957.30859, "r": 177 }
+    ]
+  },
+  {
+    "name": "M23 Sector",
+    "spheres": [{ "cx": -348.48438, "cy": 103.71484, "cz": 2017.5, "r": 179 }]
+  },
+  {
+    "name": "Trapezium Sector",
+    "spheres": [
+      { "cx": 594.46875, "cy": -431.80859, "cz": -1072.44922, "r": 182 }
+    ]
+  },
+  {
+    "name": "NGC 6940 Sector",
+    "spheres": [
+      { "cx": -2338.53906, "cy": -314.58594, "cz": 855.7832, "r": 183 }
+    ]
+  },
+  {
+    "name": "M37 Sector",
+    "spheres": [
+      { "cx": -180.73047, "cy": 243.89453, "cz": -4499.77148, "r": 184 }
+    ]
+  },
+  {
+    "name": "IC 4756 Sector",
+    "spheres": [
+      { "cx": -933.74219, "cy": 143.19922, "cz": 1266.49805, "r": 184 }
+    ]
+  },
+  {
+    "name": "NGC 6383 Sector",
+    "spheres": [{ "cx": 235.09375, "cy": 5.60156, "cz": 3201.375, "r": 187 }]
+  },
+  {
+    "name": "NGC 6830 Sector",
+    "spheres": [
+      { "cx": -4635.60938, "cy": -168.04688, "cz": 2665.59375, "r": 187 }
+    ]
+  },
+  {
+    "name": "Jewel Box Sector",
+    "spheres": [
+      { "cx": 5383.63281, "cy": 280.91016, "cz": 3522.95117, "r": 188 }
+    ]
+  },
+  {
+    "name": "NGC 6067 Sector",
+    "spheres": [
+      { "cx": 2322.23828, "cy": -177.35156, "cz": 3990.00586, "r": 189 }
+    ]
+  },
+  {
+    "name": "NGC 6755 Sector",
+    "spheres": [
+      { "cx": -2887.29297, "cy": -137.35547, "cz": 3616.84766, "r": 189 }
+    ]
+  },
+  {
+    "name": "NGC 957 Sector",
+    "spheres": [
+      { "cx": -4085.48438, "cy": -278.87109, "cz": -4275.21484, "r": 190 }
+    ]
+  },
+  {
+    "name": "NGC 5662 Sector",
+    "spheres": [
+      { "cx": 1479.9375, "cy": 132.47656, "cz": 1581.49609, "r": 190 }
+    ]
+  },
+  {
+    "name": "NGC 2353 Sector",
+    "spheres": [
+      { "cx": 2567.32812, "cy": 25.48047, "cz": -2594.35547, "r": 192 }
+    ]
+  },
+  {
+    "name": "NGC 2467 Sector",
+    "spheres": [
+      { "cx": 3941.64844, "cy": 30.85547, "cz": -1999.71289, "r": 193 }
+    ]
+  },
+  {
+    "name": "NGC 2627 Sector",
+    "spheres": [
+      { "cx": 6248.08594, "cy": 773.52734, "cz": -2078.46094, "r": 193 }
+    ]
+  },
+  {
+    "name": "M35 Sector",
+    "spheres": [
+      { "cx": 305.50781, "cy": 102.11328, "cz": -2640.42383, "r": 194 }
+    ]
+  },
+  {
+    "name": "IC 2488 Sector",
+    "spheres": [
+      { "cx": 3654.96484, "cy": -283.85938, "cz": 500.66797, "r": 194 }
+    ]
+  },
+  {
+    "name": "NGC 6124 Sector",
+    "spheres": [{ "cx": 546.19922, "cy": 174.5625, "cz": 1568.46875, "r": 195 }]
+  },
+  {
+    "name": "NGC 2669 Sector",
+    "spheres": [{ "cx": 3389.15234, "cy": -374.19531, "cz": 41.4082, "r": 199 }]
+  },
+  {
+    "name": "Col 463 Sector",
+    "spheres": [
+      { "cx": -1793.73438, "cy": 381.90234, "cz": -1371.41211, "r": 200 }
+    ]
+  },
+  {
+    "name": "NGC 7209 Sector",
+    "spheres": [
+      { "cx": -3761.71875, "cy": -484.11719, "cz": -362.21289, "r": 200 }
+    ]
+  },
+  {
+    "name": "Horsehead Dark Region",
+    "spheres": [
+      { "cx": 608.46094, "cy": -404.64453, "cz": -1194.16992, "r": 200 }
+    ]
+  },
+  {
+    "name": "M38 Sector",
+    "spheres": [
+      { "cx": -466.23828, "cy": 42.51562, "cz": -3448.36328, "r": 203 }
+    ]
+  },
+  {
+    "name": "M52 Sector",
+    "spheres": [
+      { "cx": -4268.12109, "cy": 32.32422, "cz": -1794.1543, "r": 203 }
+    ]
+  },
+  {
+    "name": "NGC 1647 Sector",
+    "spheres": [
+      { "cx": 11.76172, "cy": -508.69531, "cz": -1684.8418, "r": 205 }
+    ]
+  },
+  {
+    "name": "NGC 4349 Sector",
+    "spheres": [
+      { "cx": 6160.53516, "cy": 99.13281, "cz": 3528.17188, "r": 207 }
+    ]
+  },
+  {
+    "name": "NGC 2374 Sector",
+    "spheres": [
+      { "cx": 3581.40625, "cy": 83.59766, "cz": -3179.72266, "r": 210 }
+    ]
+  },
+  {
+    "name": "M67 Sector",
+    "spheres": [
+      { "cx": 1466.01953, "cy": 1555.39453, "cz": -2047.71289, "r": 216 }
+    ]
+  },
+  {
+    "name": "M20 Sector",
+    "spheres": [
+      { "cx": -324.17188, "cy": -9.28516, "cz": 2640.15625, "r": 217 }
+    ]
+  },
+  {
+    "name": "M48 Sector",
+    "spheres": [
+      { "cx": 1795.49219, "cy": 666.54688, "cz": -1622.35156, "r": 220 }
+    ]
+  },
+  {
+    "name": "NGC 7243 Sector",
+    "spheres": [
+      { "cx": -2595.76562, "cy": -257.61719, "cz": -406.48633, "r": 223 }
+    ]
+  },
+  {
+    "name": "M7 Sector",
+    "spheres": [{ "cx": 69.85156, "cy": -76.89062, "cz": 974.47852, "r": 229 }]
+  },
+  {
+    "name": "Blanco 1 Sector",
+    "spheres": [
+      { "cx": -42.28906, "cy": -864.69922, "cz": 157.82031, "r": 231 }
+    ]
+  },
+  {
+    "name": "NGC 3532 Sector",
+    "spheres": [{ "cx": 1497.35938, "cy": 41.62109, "cz": 533.18555, "r": 232 }]
+  },
+  {
+    "name": "NGC 5460 Sector",
+    "spheres": [
+      { "cx": 1503.62891, "cy": 482.09766, "cz": 1546.21484, "r": 232 }
+    ]
+  },
+  {
+    "name": "NGC 6705 Sector",
+    "spheres": [
+      { "cx": -2803.58594, "cy": -298.96094, "cz": 5431.8457, "r": 232 }
+    ]
+  },
+  {
+    "name": "NGC 2360 Sector",
+    "spheres": [
+      { "cx": 4695.94141, "cy": -150.25781, "cz": -3968.37891, "r": 233 }
+    ]
+  },
+  {
+    "name": "NGC 6200 Sector",
+    "spheres": [
+      { "cx": 2509.40234, "cy": -128.62109, "cz": 6210.98633, "r": 234 }
+    ]
+  },
+  {
+    "name": "IC 4665 Sector",
+    "spheres": [{ "cx": -559.51953, "cy": 338.14453, "cz": 946.0957, "r": 235 }]
+  },
+  {
+    "name": "Mel 71 Sector",
+    "spheres": [
+      { "cx": 7730.26562, "cy": 807.34375, "cz": -6743.53906, "r": 240 }
+    ]
+  },
+  {
+    "name": "Stock 1 Sector",
+    "spheres": [{ "cx": -902.64844, "cy": 41.73828, "cz": 514.86133, "r": 243 }]
+  },
+  {
+    "name": "NGC 6152 Sector",
+    "spheres": [
+      { "cx": 1528.39062, "cy": -181.70312, "cz": 2986.73828, "r": 245 }
+    ]
+  },
+  {
+    "name": "NGC 1245 Sector",
+    "spheres": [
+      { "cx": -5101.33984, "cy": -1451.18359, "cz": -7736.58789, "r": 246 }
+    ]
+  },
+  {
+    "name": "Col 97 Sector",
+    "spheres": [
+      { "cx": 878.88281, "cy": -64.39062, "cz": -1850.92383, "r": 250 }
+    ]
+  },
+  {
+    "name": "NGC 5316 Sector",
+    "spheres": [{ "cx": 3024.62891, "cy": 6.91016, "cz": 2556.00781, "r": 250 }]
+  },
+  {
+    "name": "NGC 1746 Sector",
+    "spheres": [
+      { "cx": -35.15625, "cy": -380.61719, "cz": -2014.04883, "r": 251 }
+    ]
+  },
+  {
+    "name": "Tr 16 Sector",
+    "spheres": [
+      { "cx": 8311.20312, "cy": -106.53125, "cz": 2636.46875, "r": 254 }
+    ]
+  },
+  {
+    "name": "NGC 2345 Sector",
+    "spheres": [
+      { "cx": 5319.95703, "cy": -294.56641, "cz": -5048.45312, "r": 257 }
+    ]
+  },
+  {
+    "name": "NGC 663 Sector",
+    "spheres": [
+      { "cx": -4914.64062, "cy": -100.05469, "cz": -4051.31836, "r": 260 }
+    ]
+  },
+  {
+    "name": "M46 Sector",
+    "spheres": [
+      { "cx": 3516.44531, "cy": 320.30859, "cz": -2757.24609, "r": 261 }
+    ]
+  },
+  {
+    "name": "NGC 2489 Sector",
+    "spheres": [
+      { "cx": 11855.98828, "cy": -180.25, "cz": -5105.99414, "r": 263 }
+    ]
+  },
+  {
+    "name": "NGC 3324 Sector",
+    "spheres": [
+      { "cx": 7259.77734, "cy": -26.39062, "cz": 2109.16016, "r": 264 }
+    ]
+  },
+  {
+    "name": "Fe 1 Sector",
+    "spheres": [
+      { "cx": 3551.95312, "cy": 26.39062, "cz": 1292.80469, "r": 275 }
+    ]
+  },
+  {
+    "name": "NGC 1817 Sector",
+    "spheres": [
+      { "cx": 665.49609, "cy": -1457.36719, "cz": -6227.20508, "r": 281 }
+    ]
+  },
+  {
+    "name": "Col 228 Sector",
+    "spheres": [
+      { "cx": 6846.64453, "cy": -125.30859, "cz": 2158.73828, "r": 293 }
+    ]
+  },
+  {
+    "name": "Col 69 Sector",
+    "spheres": [
+      { "cx": 366.92969, "cy": -299.39453, "cz": -1359.90039, "r": 300 }
+    ]
+  },
+  {
+    "name": "NGC 129 Sector",
+    "spheres": [
+      { "cx": -4571.64062, "cy": -231.18359, "cz": -2671.45117, "r": 309 }
+    ]
+  },
+  {
+    "name": "M17 Sector",
+    "spheres": [
+      { "cx": -1104.42969, "cy": -59.19922, "cz": 4093.20508, "r": 309 }
+    ]
+  },
+  {
+    "name": "NGC 3114 Sector",
+    "spheres": [
+      { "cx": 2883.98828, "cy": -196.83203, "cz": 681.74609, "r": 312 }
+    ]
+  },
+  {
+    "name": "NGC 5822 Sector",
+    "spheres": [
+      { "cx": 1849.48438, "cy": 187.74219, "cz": 2341.85156, "r": 314 }
+    ]
+  },
+  {
+    "name": "Col 285 Sector",
+    "spheres": [{ "cx": -53.46875, "cy": 56.27344, "cz": -19.35547, "r": 326 }]
+  },
+  {
+    "name": "NGC 752 Sector",
+    "spheres": [
+      { "cx": -929.80469, "cy": -589.36328, "cz": -1004.09766, "r": 326 }
+    ]
+  },
+  {
+    "name": "NGC 2439 Sector",
+    "spheres": [
+      { "cx": 11484.73047, "cy": -964.35938, "cz": -5017.55664, "r": 330 }
+    ]
+  },
+  {
+    "name": "NGC 188 Sector",
+    "spheres": [
+      { "cx": -5187.57031, "cy": 2556.32422, "cz": -3343.16016, "r": 331 }
+    ]
+  },
+  {
+    "name": "NGC 7790 Sector",
+    "spheres": [
+      { "cx": -8582.57422, "cy": -167.54297, "cz": -4297.83203, "r": 336 }
+    ]
+  },
+  {
+    "name": "IC 1848 Sector",
+    "spheres": [
+      { "cx": -4436.20312, "cy": 102.57031, "cz": -4790.66406, "r": 342 }
+    ]
+  },
+  {
+    "name": "NGC 7082 Sector",
+    "spheres": [
+      { "cx": -4692.53125, "cy": -245.98047, "cz": -98.29492, "r": 342 }
+    ]
+  },
+  {
+    "name": "NGC 1893 Sector",
+    "spheres": [
+      { "cx": -1192.19141, "cy": -317.42969, "cz": -10628.63672, "r": 343 }
+    ]
+  },
+  {
+    "name": "M41 Sector",
+    "spheres": [
+      { "cx": 1731.03125, "cy": -400.21094, "cz": -1396.76758, "r": 350 }
+    ]
+  },
+  {
+    "name": "h Persei Sector",
+    "spheres": [
+      { "cx": -4817.47266, "cy": -437.52734, "cz": -4750.67383, "r": 355 }
+    ]
+  },
+  {
+    "name": "IC 1805 Sector",
+    "spheres": [
+      { "cx": -4370.87891, "cy": 96.60156, "cz": -4325.34375, "r": 358 }
+    ]
+  },
+  {
+    "name": "Col 240 Sector",
+    "spheres": [
+      { "cx": 4804.97656, "cy": 17.94141, "cz": 1825.23828, "r": 374 }
+    ]
+  },
+  {
+    "name": "NGC 2286 Sector",
+    "spheres": [
+      { "cx": 5456.35547, "cy": -379.24609, "cz": -7706.28711, "r": 385 }
+    ]
+  },
+  {
+    "name": "NGC 2506 Sector",
+    "spheres": [
+      { "cx": 8599.23047, "cy": 1962.22266, "cz": -7063.48828, "r": 395 }
+    ]
+  },
+  {
+    "name": "Chi Persei Sector",
+    "spheres": [
+      { "cx": -5389.26172, "cy": -480.34766, "cz": -5408.10742, "r": 401 }
+    ]
+  },
+  {
+    "name": "NGC 2244 Sector",
+    "spheres": [
+      { "cx": 2092.95703, "cy": -164.375, "cz": -4216.23242, "r": 412 }
+    ]
+  },
+  {
+    "name": "NGC 7380 Sector",
+    "spheres": [
+      { "cx": -6928.64453, "cy": -113.87891, "cz": -2131.5293, "r": 422 }
+    ]
+  },
+  {
+    "name": "Col 132 Sector",
+    "spheres": [
+      { "cx": 1355.99609, "cy": -235.59766, "cz": -690.91602, "r": 426 }
+    ]
+  },
+  {
+    "name": "NGC 6871 Sector",
+    "spheres": [
+      { "cx": -4891.96484, "cy": 187.98047, "cz": 1533.04883, "r": 448 }
+    ]
+  },
+  {
+    "name": "Col 121 Sector",
+    "spheres": [{ "cx": 1246.80469, "cy": -278, "cz": -860.11328, "r": 459 }]
+  },
+  {
+    "name": "NGC 457 Sector",
+    "spheres": [
+      { "cx": -6340.41797, "cy": -593.83203, "cz": -4708.80859, "r": 461 }
+    ]
+  },
+  {
+    "name": "NGC 2354 Sector",
+    "spheres": [
+      { "cx": 11248.28125, "cy": -1574.77344, "cz": -6919.98828, "r": 500 }
+    ]
+  },
+  {
+    "name": "Col 173 Sector",
+    "spheres": [
+      { "cx": 1341.08203, "cy": -193.03516, "cz": -202.82031, "r": 500 }
+    ]
+  },
+  {
+    "name": "Tr 24 Sector",
+    "spheres": [{ "cx": 978.63281, "cy": 97.11719, "cz": 3577.28125, "r": 500 }]
+  },
+  {
+    "name": "IC 1396 Sector",
+    "spheres": [
+      { "cx": -2678.65234, "cy": 175.52734, "cz": -438.64648, "r": 500 }
+    ]
+  },
+  {
+    "name": "NGC 2264 Sector",
+    "spheres": [{ "cx": 851.16406, "cy": 83.68359, "cz": -2005.2207, "r": 510 }]
+  },
+  {
+    "name": "NGC 4463 Sector",
+    "spheres": [
+      { "cx": 2938.90234, "cy": -119.35547, "cz": 1744.99219, "r": 512 }
+    ]
+  },
+  {
+    "name": "NGC 5281 Sector",
+    "spheres": [
+      { "cx": 2797.33984, "cy": -44.10156, "cz": 2281.45508, "r": 512 }
+    ]
+  },
+  {
+    "name": "NGC 4609 Sector",
+    "spheres": [
+      { "cx": 3387.39062, "cy": -6.96484, "cz": 2108.46484, "r": 512 }
+    ]
+  },
+  {
+    "name": "Bleia2",
+    "spheres": [{ "cx": -43, "cy": 155, "cz": 37000, "r": 512 }]
+  },
+  {
+    "name": "Bleia3",
+    "spheres": [{ "cx": -43, "cy": 155, "cz": 36500, "r": 512 }]
+  },
+  {
+    "name": "Bleia4",
+    "spheres": [{ "cx": 450, "cy": 155, "cz": 37000, "r": 512 }]
+  },
+  {
+    "name": "Bleia5",
+    "spheres": [{ "cx": -450, "cy": 155, "cz": 37000, "r": 512 }]
+  },
+  {
+    "name": "Bleia1",
+    "spheres": [{ "cx": -43, "cy": 155, "cz": 37500, "r": 512 }]
+  },
+  {
+    "name": "Bovomit",
+    "spheres": [{ "cx": -20070, "cy": 90, "cz": -6930, "r": 512 }]
+  },
+  {
+    "name": "Dryman",
+    "spheres": [{ "cx": 19100, "cy": 20, "cz": 21160, "r": 512 }]
+  },
+  {
+    "name": "Froadik",
+    "spheres": [{ "cx": -18860, "cy": -200, "cz": 14300, "r": 512 }]
+  },
+  {
+    "name": "Hyponia",
+    "spheres": [{ "cx": -23020, "cy": -10, "cz": 24080, "r": 512 }]
+  },
+  {
+    "name": "Praei3",
+    "spheres": [{ "cx": -1000, "cy": -155, "cz": 53600, "r": 512 }]
+  },
+  {
+    "name": "Praei1",
+    "spheres": [{ "cx": -1000, "cy": -155, "cz": 54000, "r": 512 }]
+  },
+  {
+    "name": "Praei2",
+    "spheres": [{ "cx": -1000, "cy": -155, "cz": 54400, "r": 512 }]
+  },
+  {
+    "name": "Praei4",
+    "spheres": [{ "cx": -1000, "cy": -555, "cz": 54000, "r": 512 }]
+  },
+  {
+    "name": "Praei5",
+    "spheres": [{ "cx": -1000, "cy": 455, "cz": 54000, "r": 512 }]
+  },
+  {
+    "name": "Praei6",
+    "spheres": [{ "cx": -500, "cy": -100, "cz": 53500, "r": 512 }]
+  },
+  {
+    "name": "Col 70 Sector",
+    "spheres": [
+      { "cx": 508.68359, "cy": -372.59375, "cz": -1090.87891, "r": 514 }
+    ]
+  },
+  {
+    "name": "NGC 7789 Sector",
+    "spheres": [
+      { "cx": -6847.17578, "cy": -717.10547, "cz": -3265.93555, "r": 555 }
+    ]
+  },
+  {
+    "name": "IC 1590 Sector",
+    "spheres": [
+      { "cx": -7985.20703, "cy": -1052.35156, "cz": -5205.49023, "r": 558 }
+    ]
+  },
+  {
+    "name": "Col 359 Sector",
+    "spheres": [
+      { "cx": -393.00781, "cy": 175.31641, "cz": 686.22852, "r": 566 }
+    ]
+  },
+  {
+    "name": "Col 107 Sector",
+    "spheres": [
+      { "cx": 2591.42578, "cy": -89.05859, "cz": -5042.36914, "r": 578 }
+    ]
+  },
+  {
+    "name": "Col 89 Sector",
+    "spheres": [
+      { "cx": 603.48438, "cy": 273.61719, "cz": -4187.9043, "r": 593 }
+    ]
+  },
+  {
+    "name": "NGC 2546 Sector",
+    "spheres": [
+      { "cx": 2894.65234, "cy": -104.69922, "cz": -781.03711, "r": 611 }
+    ]
+  },
+  {
+    "name": "IC 2944 Sector",
+    "spheres": [
+      { "cx": 5317.44531, "cy": -142.92969, "cz": 2434.51562, "r": 613 }
+    ]
+  }
+]

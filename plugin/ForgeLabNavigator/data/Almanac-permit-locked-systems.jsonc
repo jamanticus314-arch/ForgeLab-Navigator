@@ -1,0 +1,72 @@
+/*
+ * Individually permit-locked star systems.
+ *
+ * Source: the community-maintained "Elite Dangerous Permit Database" spreadsheet,
+ * obtained via canonn-signals, with system addresses from Spansh cross-checked against
+ * EDSM. Permit locks are published in no game data file or API, so the list is
+ * hand-maintained and best-effort.
+ *
+ * Credit and licence terms: ATTRIBUTIONS.md. Acquisition, revisions, derivation and
+ * corrections: data/astro/SOURCES.md.
+ *
+ * Each system address is a decimal string so every language can parse it without
+ * IEEE-754 loss. Addresses come from Spansh, cross-checked against EDSM for the
+ * systems EDSM holds; no disagreement. Plaa Ain HA-Z d46 is absent from both and is
+ * encoded from its procedural name by this project.
+ */
+[
+  { "name": "4 Sextantis", "id64": "663329196387" },
+  { "name": "Achenar", "id64": "164098653" },
+  { "name": "Alioth", "id64": "1109989017963" },
+  { "name": "Alpha Hydri", "id64": "1797200529771" },
+  { "name": "Bellica", "id64": "358730437314" },
+  { "name": "Beta Hydri", "id64": "10494151019" },
+  { "name": "CD-43 11917", "id64": "3107576615650" },
+  { "name": "CD-44 1695", "id64": "358864622282" },
+  { "name": "Crom", "id64": "633675453138" },
+  { "name": "Dryio Flyuae IC-B c1-377", "id64": "103698260271370" },
+  { "name": "Exbeur", "id64": "1006909786467" },
+  { "name": "Facece", "id64": "1384883652971" },
+  { "name": "HIP 10332", "id64": "2037685160291" },
+  { "name": "HIP 104941", "id64": "633272799954" },
+  { "name": "HIP 22182", "id64": "670149191025" },
+  { "name": "HIP 22460", "id64": "319715002691" },
+  { "name": "HIP 39425", "id64": "1110022555995" },
+  { "name": "HIP 51073", "id64": "358931829458" },
+  { "name": "HIP 54530", "id64": "3107710898898" },
+  { "name": "HIP 87621", "id64": "147882789259" },
+  { "name": "Hodack", "id64": "1350523947371" },
+  { "name": "Hors", "id64": "633675420378" },
+  { "name": "HR 4413", "id64": "869487610219" },
+  { "name": "Isinor", "id64": "2415675853163" },
+  { "name": "Jotun", "id64": "670685799809" },
+  { "name": "Kamba", "id64": "7780702294746" },
+  { "name": "LFT 509", "id64": "7268561135001" },
+  { "name": "LHS 2894", "id64": "4207021167322" },
+  { "name": "LHS 2921", "id64": "2869441078697" },
+  { "name": "LHS 3091", "id64": "11665802470833" },
+  { "name": "LTT 198", "id64": "633608278738" },
+  { "name": "Luyten 347-14", "id64": "9467047454129" },
+  { "name": "Mbooni", "id64": "1733119939282" },
+  { "name": "Mingfu", "id64": "5068732442025" },
+  { "name": "Nastrond", "id64": "869454039395" },
+  { "name": "Peregrina", "id64": "869470816603" },
+  { "name": "Phekda", "id64": "61440263348" },
+  { "name": "Pi Mensae", "id64": "938207070571" },
+  { "name": "Plaa Ain HA-Z d46", "id64": "1591209954571" },
+  { "name": "PLX 695", "id64": "1733052863178" },
+  { "name": "Polaris", "id64": "388367419731" },
+  { "name": "Ross 128", "id64": "670954497449" },
+  { "name": "Ross 354", "id64": "491496933723" },
+  { "name": "Scheau Bli NB-O d6-1409", "id64": "48423868601915" },
+  { "name": "Shinrarta Dezhra", "id64": "3932277478106" },
+  { "name": "Sirius", "id64": "121569805492" },
+  { "name": "Sol", "id64": "10477373803" },
+  { "name": "Summerland", "id64": "972566792555" },
+  { "name": "Terra Mater", "id64": "44837112163" },
+  { "name": "Tiliala", "id64": "251012319595" },
+  { "name": "van Maanen's Star", "id64": "670685996457" },
+  { "name": "Vega", "id64": "301958431924" },
+  { "name": "Witch's Reach", "id64": "1659761592683" },
+  { "name": "Wolf 262", "id64": "633675453098" }
+]

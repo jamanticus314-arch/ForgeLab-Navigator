@@ -1,0 +1,642 @@
+{
+  "binary_sha256": "e6be8bbe04e6a7ae226d4318945af7f367de13dc5a007a261964d9ba8144e988",
+  "milkyway_sha256": "745b9cfbeb501fc83eba4e64822ee7a2953d1cf1c293afc1ed5c32469a3fdf2d",
+  "overrides_sha256": "c2e470edb448ef74eaed827c117cd8650ef0c14046517706450d493d261fd776",
+  "gdm_header_hex": "564c4b00ebe2361a24cb2407d6c56d34ebe2361aebe2361aebe2361abab88d0601200004ebe2361aebe2361aa0860100f63f0100a0860100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000b66d0100b76dffff008002000020ffff00800200ffff010029fcffffcdecffff33130000cc2c0000333300000060000033130000cc4c0000cc2c0000",
+  "sources": [
+    {
+      "named_path": "Win64/Shared/StellarForge/Galaxies/MilkyWay/MilkyWay.ovl",
+      "physical_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Elite Dangerous\\Products\\elite-dangerous-odyssey-64\\Win64\\0d\\d30f11c57448cff8ec3dd0c5c80d9868482ccadb",
+      "source_sha256": "ba4e049fd4eae066e72f29898a25d52692422e5905fc7a4a65105e44eb631ade",
+      "source_bytes": 27830550,
+      "decoded_sha256": "745b9cfbeb501fc83eba4e64822ee7a2953d1cf1c293afc1ed5c32469a3fdf2d",
+      "decoded_bytes": 27830485,
+      "head_hex": "465245530813000194600000000000006003000000000000000000000600090018000000180000000000000001000000",
+      "binary_sha256": "e6be8bbe04e6a7ae226d4318945af7f367de13dc5a007a261964d9ba8144e988"
+    },
+    {
+      "named_path": "Win64/Shared/StellarForge/Galaxies/MilkyWay/Overrides/Overrides.ovl",
+      "physical_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Elite Dangerous\\Products\\elite-dangerous-odyssey-64\\Win64\\0e\\e9b603105b4b1941c7ba2b3eda32247b3f9ea492",
+      "source_sha256": "305d51817f9faeb6cdebafffb6859c7dadb638f6749422b3f25e9d070a82aad4",
+      "source_bytes": 5062,
+      "decoded_sha256": "c2e470edb448ef74eaed827c117cd8650ef0c14046517706450d493d261fd776",
+      "decoded_bytes": 4997,
+      "head_hex": "465245530813000194600000000000003000000000000000000000000000010001000000010000000000000001000000",
+      "binary_sha256": "e6be8bbe04e6a7ae226d4318945af7f367de13dc5a007a261964d9ba8144e988"
+    }
+  ],
+  "methods": {
+    "maps": "0x4ca3460 (u16 RLE), 0x4ca3530 (u32 RLE)",
+    "catalogue": "0x4c9ffb0 (96-byte bucket rows)",
+    "overrides": "0x3cf4570 (72-byte rows, first occurrence)"
+  },
+  "sqrt_scale_rva": "0x5a70dd8",
+  "sqrt_scale_hex": "000000000000e040",
+  "maps": {
+    "56": {
+      "width": 2048,
+      "height": 2048,
+      "bits": 32,
+      "file": "map-038.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15184
+    },
+    "64": {
+      "width": 1024,
+      "height": 1024,
+      "bits": 32,
+      "file": "map-040.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15976
+    },
+    "72": {
+      "width": 512,
+      "height": 512,
+      "bits": 32,
+      "file": "map-048.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 16168
+    },
+    "80": {
+      "width": 256,
+      "height": 256,
+      "bits": 32,
+      "file": "map-050.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15472
+    },
+    "88": {
+      "width": 128,
+      "height": 128,
+      "bits": 32,
+      "file": "map-058.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15880
+    },
+    "96": {
+      "width": 64,
+      "height": 64,
+      "bits": 32,
+      "file": "map-060.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 16024
+    },
+    "104": {
+      "width": 32,
+      "height": 32,
+      "bits": 32,
+      "file": "map-068.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15592
+    },
+    "112": {
+      "width": 16,
+      "height": 16,
+      "bits": 32,
+      "file": "map-070.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15424
+    },
+    "120": {
+      "width": 2048,
+      "height": 2048,
+      "bits": 16,
+      "file": "map-078.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 16072
+    },
+    "128": {
+      "width": 1024,
+      "height": 1024,
+      "bits": 16,
+      "file": "map-080.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15208
+    },
+    "136": {
+      "width": 512,
+      "height": 512,
+      "bits": 16,
+      "file": "map-088.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 14848
+    },
+    "144": {
+      "width": 256,
+      "height": 256,
+      "bits": 16,
+      "file": "map-090.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15232
+    },
+    "152": {
+      "width": 128,
+      "height": 128,
+      "bits": 16,
+      "file": "map-098.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15304
+    },
+    "160": {
+      "width": 64,
+      "height": 64,
+      "bits": 16,
+      "file": "map-0a0.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 16240
+    },
+    "168": {
+      "width": 32,
+      "height": 32,
+      "bits": 16,
+      "file": "map-0a8.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15640
+    },
+    "176": {
+      "width": 16,
+      "height": 16,
+      "bits": 16,
+      "file": "map-0b0.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15160
+    },
+    "184": {
+      "width": 256,
+      "height": 256,
+      "bits": 16,
+      "file": "map-0b8.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15040
+    },
+    "192": {
+      "width": 128,
+      "height": 128,
+      "bits": 16,
+      "file": "map-0c0.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 14944
+    },
+    "200": {
+      "width": 64,
+      "height": 64,
+      "bits": 16,
+      "file": "map-0c8.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 14920
+    },
+    "208": {
+      "width": 32,
+      "height": 32,
+      "bits": 16,
+      "file": "map-0d0.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 14824
+    },
+    "216": {
+      "width": 16,
+      "height": 16,
+      "bits": 16,
+      "file": "map-0d8.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 14872
+    },
+    "224": {
+      "width": 8,
+      "height": 8,
+      "bits": 16,
+      "file": "map-0e0.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 14896
+    },
+    "232": {
+      "width": 4,
+      "height": 4,
+      "bits": 16,
+      "file": "map-0e8.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 14992
+    },
+    "240": {
+      "width": 2,
+      "height": 2,
+      "bits": 16,
+      "file": "map-0f0.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15016
+    },
+    "248": {
+      "width": 2048,
+      "height": 2048,
+      "bits": 16,
+      "file": "map-0f8.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15064
+    },
+    "256": {
+      "width": 1024,
+      "height": 1024,
+      "bits": 16,
+      "file": "map-100.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15280
+    },
+    "264": {
+      "width": 512,
+      "height": 512,
+      "bits": 16,
+      "file": "map-108.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15808
+    },
+    "272": {
+      "width": 256,
+      "height": 256,
+      "bits": 16,
+      "file": "map-110.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 16336
+    },
+    "280": {
+      "width": 128,
+      "height": 128,
+      "bits": 16,
+      "file": "map-118.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15520
+    },
+    "288": {
+      "width": 64,
+      "height": 64,
+      "bits": 16,
+      "file": "map-120.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 15736
+    },
+    "296": {
+      "width": 32,
+      "height": 32,
+      "bits": 16,
+      "file": "map-128.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 16216
+    },
+    "304": {
+      "width": 16,
+      "height": 16,
+      "bits": 16,
+      "file": "map-130.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 16120
+    },
+    "312": {
+      "width": 2048,
+      "height": 2048,
+      "bits": 16,
+      "file": "map-138.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 16048
+    },
+    "320": {
+      "width": 2048,
+      "height": 2048,
+      "bits": 16,
+      "file": "map-140.bin.zlib",
+      "resource_pool": 2064,
+      "resource_offset": 14800
+    }
+  },
+  "files": {
+    "map-038.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 16777216,
+      "sha256": "0eb3fd45ddd84c5f09a4d370064d19a65ebb75bb511d19b62127fbac77c5514d",
+      "compressed_bytes": 5700803,
+      "compressed_sha256": "dbf0561a75a7a0085e9935c5139ee9257b85ba11490dd99166966502f6fab672"
+    },
+    "map-040.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 4194304,
+      "sha256": "3c681f9443ac7b7111ab3fea6f000e1cbe8cab22b846a0556f471398f635fcd0",
+      "compressed_bytes": 1508245,
+      "compressed_sha256": "65c83394456a12854615b4558b264f137d578204f2f3365f650af9e991b27993"
+    },
+    "map-048.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 1048576,
+      "sha256": "a2ae0bbc1f00bf4d837962b0f6c1849ce18fbf54b2e11a852325087934e345f5",
+      "compressed_bytes": 385742,
+      "compressed_sha256": "c68c8c11a54033b041924989f5daf81c77001a66630cb70c2318e167db05fa9e"
+    },
+    "map-050.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 262144,
+      "sha256": "3bd8313578f88e43783e63dfdc80cff605e0bf25319f842d8557f21d64137061",
+      "compressed_bytes": 99276,
+      "compressed_sha256": "9105b1630b44c7391175b76174ee63d51ccc7015a4993ab568b1a791b0f0cf73"
+    },
+    "map-058.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 65536,
+      "sha256": "ff45d0516a6a21fd85546b77698f83980be987ad9ea4697ec45f9242ae5a9963",
+      "compressed_bytes": 25893,
+      "compressed_sha256": "bc32ab367a2f8d8c2b3ca102b4b1eab6f0152535e67f6f66b5eb8bb5aebee8da"
+    },
+    "map-060.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 16384,
+      "sha256": "aee296f6a9868bbd9a2c8f10d5a4532d80977d5a9e1c23ba10a1523725c0577e",
+      "compressed_bytes": 6795,
+      "compressed_sha256": "35f0f4c173198c0a5e0d060e4fa092c2ef76020d74e3678e82038fea01426f15"
+    },
+    "map-068.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 4096,
+      "sha256": "3d3d169d599b139f6a61b7d118cc9119fde61c99db9d3bc6c0024d4d0493887b",
+      "compressed_bytes": 1837,
+      "compressed_sha256": "d2d449dc31629e7281eb5b91b6349e3269d5510e7fd13b8264e5c36419334b99"
+    },
+    "map-070.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 1024,
+      "sha256": "bd7e25d90ea4d857b3c2d392f55d67e4c88dfd91f9ecb0e060026fc376c98f83",
+      "compressed_bytes": 545,
+      "compressed_sha256": "ee3848d13bc48e1f493918fad98bedf8be5a96f5b25d0d0aeafc5246cea8c438"
+    },
+    "map-078.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 8388608,
+      "sha256": "39a93d897321a1454cb788a9512a63cd4da495af5501b8e82c09bd7d123db47e",
+      "compressed_bytes": 2259717,
+      "compressed_sha256": "03711c21910e0a95630a2ba3be5984d7265e69ad1cc7d457e46edd10186062e5"
+    },
+    "map-080.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 2097152,
+      "sha256": "330ed50ca33d0655b131f2fe0b3aa2474edc3f1a43fe8fb778fda6ee43c84519",
+      "compressed_bytes": 684817,
+      "compressed_sha256": "87079e114d64f835fde973fa12ba10fe6519673e095a482ced439efc520f06da"
+    },
+    "map-088.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 524288,
+      "sha256": "cad76e94edaeb7bbf93ab6da6b4e8cb3a786fe81d8655a7090845d8c67dbbc89",
+      "compressed_bytes": 183404,
+      "compressed_sha256": "c524c5b8b0c298a7ba3fe250bc9489e9a8ddb8c5b30b774f402826402268a921"
+    },
+    "map-090.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 131072,
+      "sha256": "683f78f8b8ef7af732b393b8a365278fc11d2cb107406dbd430c85090c9d3639",
+      "compressed_bytes": 47599,
+      "compressed_sha256": "d96f5409c9c1fb84c3372a78a6c345fc0bf22fdfb98444147b8477992f6d3bba"
+    },
+    "map-098.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 32768,
+      "sha256": "ee9547fd740c06523204bf2491847983c902fd97b9b7ffc8ff765854f8efe74b",
+      "compressed_bytes": 12586,
+      "compressed_sha256": "8aa75976773a32e1b943a8bc4ad377c2d6b71d59091ec864c7407d5aeb1a1a5d"
+    },
+    "map-0a0.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 8192,
+      "sha256": "244aebdaecd1f6c5e69a287d397dd8d2e3a04dac22f63cc0d5eeb1eca813ebea",
+      "compressed_bytes": 3373,
+      "compressed_sha256": "cf2d9e4af28f1c83b9ea8e018a8a32aabc42bc1e0107b079c8ee3bd19d71d190"
+    },
+    "map-0a8.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 2048,
+      "sha256": "a1a1ec0f79d4ff82de5f08b45a466a1c59418b8b93bfdd5aba8f30a7c4b8da16",
+      "compressed_bytes": 941,
+      "compressed_sha256": "85aede7396d6ec6ccc6d0dc873402721cb6fbd40796e05ef9180dd076f7932ee"
+    },
+    "map-0b0.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 512,
+      "sha256": "db24ad108d8c5deef42d841055d010d9761e80333270190210c3233a8b7456d6",
+      "compressed_bytes": 276,
+      "compressed_sha256": "48f743cb95147899bef9e76660a089260f9e81f3d1394a3b472a1471d20b470e"
+    },
+    "map-0b8.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 131072,
+      "sha256": "2226286784f3bb587b52f7c7cdeb0fdc47b3b7733831d0f1bfc56eaa85a46596",
+      "compressed_bytes": 153,
+      "compressed_sha256": "35570175641ecbf8ec29584c75d42285e22a65c216d2bb71b3e3929bf2a851f5"
+    },
+    "map-0c0.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 32768,
+      "sha256": "f579d711ac845e7150b9eb30316d66d9d1111fc581df8751470b35e944a4f99c",
+      "compressed_bytes": 57,
+      "compressed_sha256": "2b285a368284ec3462c507b7c21797c0f6e8e7ef09806f68e78c40928cde9f91"
+    },
+    "map-0c8.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 8192,
+      "sha256": "17c61d2628c86b45513d2463892e5783cfa0cce71ebfdbfd0d1f38a604d50f55",
+      "compressed_bytes": 37,
+      "compressed_sha256": "d63f547a539563ce9dfc14fccf353b73042d09aa5a1190a5414a404512ea86f9"
+    },
+    "map-0d0.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 2048,
+      "sha256": "8986a2d310f436b559374418eeafbf2bb474dc12b50046fc0175279cb7e54678",
+      "compressed_bytes": 28,
+      "compressed_sha256": "27ca08cfaf7fea6bfbb617874ec847571eb5d5273ba19f55919bbc122138dcc3"
+    },
+    "map-0d8.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 512,
+      "sha256": "8240600814ed87cdfff40c55f7df80639accb29aa91d87851cb0b4fe070e94bd",
+      "compressed_bytes": 19,
+      "compressed_sha256": "2828b6c7e73b8afd9521d994b8d8f882c54a96a5df7c096a7d3bcacb75af127c"
+    },
+    "map-0e0.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 128,
+      "sha256": "616e53997b363caa72c3710eefc9c6465f39989144b60ffc118c1272bdb8f6c6",
+      "compressed_bytes": 14,
+      "compressed_sha256": "5260f8058575a19e663b4402e8d66597d538924134291edbbd6d96408e5481df"
+    },
+    "map-0e8.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 32,
+      "sha256": "b66ff4f9a55d972b649cda79cc6c2bb49ad2504d910e90181194889593980fdd",
+      "compressed_bytes": 14,
+      "compressed_sha256": "52313eecdb51024e90e005cfa5c6cbd03a5c3594b76280d85409a1cac194cff2"
+    },
+    "map-0f0.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 8,
+      "sha256": "150c5204f2bb6c63e55973313f7c9a76c96896533d393d6b83f3b968311b77ef",
+      "compressed_bytes": 16,
+      "compressed_sha256": "f118b39083527fb38e23a247173d578104c62438a326c2aa41f8315070ba2549"
+    },
+    "map-0f8.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 8388608,
+      "sha256": "663377f36e10c86b199ad99b7cded79cf8c36b167c53934ac75cff74c092dcd3",
+      "compressed_bytes": 761614,
+      "compressed_sha256": "c34079f3c06caf76964fd34e32912b70b90054b0ccbe6a61a751dfbe8498c338"
+    },
+    "map-100.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 2097152,
+      "sha256": "6d95382074ad6b9403c452e913c34d157dc31318f9b7b591aa6dee7117e2e3c9",
+      "compressed_bytes": 368909,
+      "compressed_sha256": "641509898748821f99af364c338b3d748f95b02f8d2b4fba0f40c9f96f7ff82c"
+    },
+    "map-108.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 524288,
+      "sha256": "560430a94c40cc1263a99a211079e13bb020a12a2f4bc601e05025f415db34ac",
+      "compressed_bytes": 113557,
+      "compressed_sha256": "3d68f15da6ddd311a8c1d703a46b2b6e208fafb25c4660477900fb2a0a59ac47"
+    },
+    "map-110.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 131072,
+      "sha256": "3cebae8fe6a9fabdba8cc1468ec0c77684c2b19338e2583ae5d7a91fd8e5d151",
+      "compressed_bytes": 32003,
+      "compressed_sha256": "50702a4dbfb3bdf2bd1c3a2dbe41fd0e61e06dd6bd42880b5a6d92365423ab1f"
+    },
+    "map-118.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 32768,
+      "sha256": "0a7ac234bf17ca637f27b71b71ad728fc6a4f0196571b64ddee541dc68cc8f4d",
+      "compressed_bytes": 10011,
+      "compressed_sha256": "c5b0e34ba0cdf400db935841501f83a563cacda760373330c94dfe8390978ff6"
+    },
+    "map-120.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 8192,
+      "sha256": "ddf8ab63a54ea5e49be52f29311e976e0a7427a46dd39cc44755aaa4c30d5844",
+      "compressed_bytes": 3091,
+      "compressed_sha256": "782f5e29c8380a1c5af5a7a9d316f84d66c0415b73297ad512a5f470b40cda52"
+    },
+    "map-128.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 2048,
+      "sha256": "ba5a3578b2b691f566dfd31ae24455b9bf6297c48f43b7800785b7ac8b26d5e2",
+      "compressed_bytes": 981,
+      "compressed_sha256": "eb1116a08f4eb3e86c6ea1f04b0bfb9b1ee1d9458b7e20ca43700bdd3f4c9511"
+    },
+    "map-130.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 512,
+      "sha256": "85d9adb94438e9a170eee29fab762066bc99f37cb92e91f784cc569e617d0765",
+      "compressed_bytes": 313,
+      "compressed_sha256": "16932d4a77fa342b3e8410a9ee4639cedc7e45ab760df78ed1eca5459a415021"
+    },
+    "map-138.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 8388608,
+      "sha256": "358e90ba8885b9d4f440c38bc381864c92d7910afb1d6c0eabde5402cf8018f9",
+      "compressed_bytes": 1851639,
+      "compressed_sha256": "d77faad910e72065764f6b7958a76396c9807132f3c00c2e2a237dd5cf96a316"
+    },
+    "map-140.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 8388608,
+      "sha256": "ee476b6dde4a849408cbd8d43eebb2838cd7e738fea2f7bdbb9c024323979291",
+      "compressed_bytes": 784407,
+      "compressed_sha256": "f9883e6b8ea41b7c415cd1ddeae3a0e56df20859773cda2416aa6c46bb1c3a17"
+    },
+    "catalogue-native96.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 13792032,
+      "sha256": "01f1b70ec9a764e08e489941975719e317192d587477498523af00cd89e22cbe",
+      "compressed_bytes": 5579888,
+      "compressed_sha256": "b1caa64646775b0ff03cb47552a7a8815e7b432b995526d22d47b881b78a6960"
+    },
+    "catalogue-literal96.bin.zlib": {
+      "compression": "zlib",
+      "bytes": 13792032,
+      "sha256": "cad6a0a138534771f29fc33fa2446c3e76faeacdd207332d6432abb4c520b579",
+      "compressed_bytes": 5199240,
+      "compressed_sha256": "7e13fb1b565cffaf8895231b73d11c7e1817fff4bdb9988690e54278b3cf4ced"
+    },
+    "catalogue-provenance.json.zlib": {
+      "compression": "zlib",
+      "bytes": 2359378,
+      "sha256": "739700e866f38511ca015fc000e8b16556c45ce92a8569a7021c30dcc0fb8780",
+      "compressed_bytes": 463573,
+      "compressed_sha256": "1afb709c5bf9ae8d8a337f6d8d01776842e9a50d059896d00e94c570cea34b7a"
+    },
+    "overrides.json.zlib": {
+      "compression": "zlib",
+      "bytes": 137162,
+      "sha256": "07a3fb8eeabc00d88fa23a8d997594121e38e7334a14e38b822466020991d1cb",
+      "compressed_bytes": 12426,
+      "compressed_sha256": "6c01061507d1feca8214c749537064deb137f70184b4e51f765fe8562d2d5034"
+    },
+    "override-boxels.json.zlib": {
+      "compression": "zlib",
+      "bytes": 6387,
+      "sha256": "0391c9b5ff99fc3675e4a292c6360cce8f0f2bc3849c915ffa3da390dba942d0",
+      "compressed_bytes": 1003,
+      "compressed_sha256": "79d6d6af30803a68e145cbeb12b904840e11af63ae404d294dac0430485c1632"
+    }
+  },
+  "catalogue": {
+    "records": 143667,
+    "row_bytes": 96,
+    "core_bytes": 72,
+    "levels": [
+      {
+        "level": 0,
+        "buckets": 163,
+        "records": 183
+      },
+      {
+        "level": 1,
+        "buckets": 10949,
+        "records": 20246
+      },
+      {
+        "level": 2,
+        "buckets": 43853,
+        "records": 45363
+      },
+      {
+        "level": 3,
+        "buckets": 43853,
+        "records": 52272
+      },
+      {
+        "level": 4,
+        "buckets": 10949,
+        "records": 17549
+      },
+      {
+        "level": 5,
+        "buckets": 5471,
+        "records": 6744
+      },
+      {
+        "level": 6,
+        "buckets": 673,
+        "records": 748
+      },
+      {
+        "level": 7,
+        "buckets": 331,
+        "records": 562
+      }
+    ],
+    "native_base": 1073741824,
+    "native_bytes_note": "Only explicit asset relocations are applied; scheduler mutations are not applied."
+  },
+  "overrides": {
+    "resource_boxel_rows": 107,
+    "records": 198,
+    "core_bytes": 72,
+    "unique_boxels": 107,
+    "empty_boxel_rows": 0,
+    "native_base": 1174405120,
+    "selection": "first occurrence per boxel and address"
+  }
+}
