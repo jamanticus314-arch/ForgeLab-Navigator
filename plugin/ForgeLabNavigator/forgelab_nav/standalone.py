@@ -40,7 +40,7 @@ class JournalTailer(threading.Thread):
         self.status_mtime = None
 
     def _newest(self):
-        files = sorted(self.directory.glob("Journal.*.log"))
+        files = session.journal_files(self.directory)
         return files[-1] if files else None
 
     def start_at_end(self):

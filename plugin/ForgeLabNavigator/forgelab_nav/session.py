@@ -13,9 +13,11 @@ from __future__ import annotations
 import bisect
 import json
 import math
+import re
 import threading
 import time
 import zlib
+from collections.abc import Mapping
 from dataclasses import asdict, dataclass, field, fields
 from functools import lru_cache
 from pathlib import Path
@@ -109,6 +111,47 @@ def suggest(prefix, limit=12, extra=()):
             out.append(table[i][1])
         i += 1
     return out[:limit]
+
+
+_JOURNAL_NAME = re.compile(r"^Journal\.(?:(\d{4})-(\d{2})-(\d{2})T(\d{6})|(\d{12}))\.(\d{2})\.log$")
+
+
+def journal_files(directory):
+    """Journal.*.log files in ``directory``, oldest first, by the time in the name.
+
+    The game named journals Journal.YYMMDDHHMMSS.NN.log until 2022 and
+    Journal.YYYY-MM-DDTHHMMSS.NN.log since. Sorting by name puts the old
+    2021-22 files after every new one, so a veteran's "newest" journal
+    would be years old. Unrecognised names fall back to the file time.
+    """
+    def key(path):
+        m = _JOURNAL_NAME.match(path.name)
+        if m:
+            stamp = "20" + m.group(5) if m.group(5) else "".join(m.group(1, 2, 3, 4))
+            return stamp, int(m.group(6))
+        try:
+            return time.strftime("%Y%m%d%H%M%S", time.localtime(path.stat().st_mtime)), 0
+        except OSError:
+            return "", 0
+    return sorted(Path(directory).glob("Journal.*.log"), key=lambda p: (*key(p), p.name))
+
+
+def loadout_from_state(state):
+    """A Loadout for the current ship from EDMC's monitor state, or None if it is incomplete.
+
+    EDMC's monitor.ship() leaves out the fuel tank and unladen mass, but its
+    state keeps them from the last Loadout event.
+    """
+    if not isinstance(state, Mapping):
+        return None
+    modules, fuel = state.get("Modules"), state.get("FuelCapacity")
+    if not state.get("ShipType") or not isinstance(modules, Mapping) or not modules:
+        return None
+    if not isinstance(fuel, Mapping) or fuel.get("Main") is None or state.get("UnladenMass") is None:
+        return None
+    return {"event": "Loadout", "Ship": state["ShipType"], "ShipID": state.get("ShipID"),
+            "UnladenMass": state["UnladenMass"], "FuelCapacity": dict(fuel),
+            "Modules": [dict(m) for m in modules.values() if isinstance(m, Mapping)]}
 
 
 def jumps_text(n):
@@ -313,13 +356,15 @@ class Navigator:
         self.host.changed()
 
     # ------------------------------------------------------------------ startup
-    def bootstrap(self, journal_dir=None, loadout=None):
-        """Recover ship, location and fuel from the newest journals (quietly)."""
-        if loadout:
-            self.loadout = loadout
+    def bootstrap(self, journal_dir=None, loadout=None, state=None):
+        """Recover ship, location and fuel from the newest journals (quietly).
+
+        ``loadout`` (a complete Loadout) and ``state`` (EDMC's monitor state)
+        describe the host's current ship and win over the journals.
+        """
         directory = Path(journal_dir) if journal_dir else self.host.journal_dir()
         if directory and directory.is_dir():
-            files = sorted(directory.glob("Journal.*.log"))[-3:]
+            files = journal_files(directory)[-3:]
             for path in files:
                 try:
                     with open(path, encoding="utf-8") as f:
@@ -331,14 +376,44 @@ class Navigator:
                             self._apply(entry, quiet=True)
                 except OSError:
                     continue
+        if loadout:
+            self.loadout = loadout
+        elif not self._follow_host_ship(state):
+            host_id = self._host_ship_id(state)
+            if host_id is not None and self.loadout is not None and self.loadout.get("ShipID") != host_id:
+                # The journals describe another ship than the one EDMC says you fly: don't plan with it.
+                self.loadout = None
+                self.ship_error = "Waiting for your current ship's loadout (relog once)."
         self._set_ship()
         if self.route and self.system:
             self._snap_to_route(quiet=True)
         self.host.changed()
 
+    @staticmethod
+    def _host_ship_id(state):
+        ship_id = state.get("ShipID") if isinstance(state, Mapping) else None
+        return ship_id if isinstance(ship_id, int) and not isinstance(ship_id, bool) else None
+
+    def _follow_host_ship(self, state):
+        """Switch to the host's current ship when ours is a different one. True if switched."""
+        ship_id = self._host_ship_id(state)
+        if ship_id is None or (self.loadout is not None and self.loadout.get("ShipID") == ship_id):
+            return False
+        current = loadout_from_state(state)
+        if current is None:
+            return False
+        try:
+            Ship.from_loadout(current, cargo_mass=self.cargo)
+        except ShipModelError:
+            return False
+        self.loadout = current
+        return True
+
     # ------------------------------------------------------------------ journal
     def on_journal(self, entry, state=None):
         self._apply(entry, quiet=False)
+        if entry.get("event") not in ("Loadout", "ShipyardSwap", "ShipyardNew") and self._follow_host_ship(state):
+            self._set_ship()
         self.push_overlay()
         self.host.changed()
 

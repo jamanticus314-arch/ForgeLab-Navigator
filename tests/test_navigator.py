@@ -717,7 +717,113 @@ class ObedientPlayerTests(unittest.TestCase):
                 self.assertGreaterEqual(lowest, 0.0)
 
 
+CASPIAN = dict(LOADOUT, ShipID=30)      # public fixtures carry no ShipID
+
+
+def other_ship_loadout(ship_id=7):
+    """A different ship than CASPIAN (Beluga, own ShipID) built from the same modules."""
+    return dict(LOADOUT, Ship="BelugaLiner", ShipID=ship_id, UnladenMass=LOADOUT["UnladenMass"] + 500)
+
+
+def edmc_state(loadout):
+    """EDMC monitor.state as it looks after a Loadout event."""
+    return {"ShipID": loadout["ShipID"], "ShipType": loadout["Ship"].lower(),
+            "UnladenMass": loadout["UnladenMass"], "FuelCapacity": dict(loadout["FuelCapacity"]),
+            "Modules": {m["Slot"]: dict(m) for m in loadout["Modules"]}}
+
+
+def write_journal(directory, name, *entries):
+    (directory / name).write_text("".join(json.dumps(e) + "\n" for e in entries), encoding="utf-8")
+
+
+class ShipSelectionTests(unittest.TestCase):
+    """Reddit report 2026-10-01: Caspian in EDMC, Beluga Liner in the panel."""
+
+    def test_journal_files_order_by_time_across_name_formats(self):
+        d = Path(tempfile.mkdtemp())
+        for name in ("Journal.2026-09-30T010000.01.log", "Journal.211105120000.01.log",
+                     "Journal.211105120000.02.log", "Journal.2026-09-30T010000.02.log",
+                     "Journal.171231235959.01.log", "Journal.2026-10-01T090000.01.log"):
+            (d / name).write_text("", encoding="utf-8")
+        self.assertEqual([p.name for p in session.journal_files(d)],
+                         ["Journal.171231235959.01.log", "Journal.211105120000.01.log",
+                          "Journal.211105120000.02.log", "Journal.2026-09-30T010000.01.log",
+                          "Journal.2026-09-30T010000.02.log", "Journal.2026-10-01T090000.01.log"])
+
+    def test_ship_names_use_journal_symbols(self):
+        self.assertEqual(Ship.from_loadout(other_ship_loadout()).name, "Beluga Liner")
+        self.assertEqual(Ship.from_loadout(CASPIAN).name, "Caspian Explorer")
+
+    def test_loadout_from_state(self):
+        built = session.loadout_from_state(edmc_state(CASPIAN))
+        from dataclasses import replace
+        self.assertEqual(Ship.from_loadout(built), replace(Ship.from_loadout(CASPIAN), source_timestamp=""))
+        self.assertIsNone(session.loadout_from_state({"ShipID": 30, "ShipType": "explorer_nx", "Modules": {}}))
+        self.assertIsNone(session.loadout_from_state(None))
+
+    def navigator(self, journal_dir):
+        nav = session.Navigator(FakeHost(journal_dir), tempfile.mkdtemp(), REAL_PACK)
+        _OPEN.append(nav)
+        return nav
+
+    def veteran_journals(self):
+        """Years-old journals (old name format, Beluga) plus today's (new format, Caspian)."""
+        d = Path(tempfile.mkdtemp())
+        for k in range(3):
+            write_journal(d, f"Journal.2111051200{k:02d}.01.log", other_ship_loadout())
+        write_journal(d, "Journal.2026-10-01T090000.01.log", CASPIAN)
+        return d
+
+    @unittest.skipUnless(REAL_PACK.exists(), "real neutron pack not built")
+    def test_bootstrap_reads_the_newest_journals_not_the_last_names(self):
+        nav = self.navigator(self.veteran_journals())
+        nav.bootstrap()
+        self.assertEqual(nav.ship.name, "Caspian Explorer")
+
+    @unittest.skipUnless(REAL_PACK.exists(), "real neutron pack not built")
+    def test_bootstrap_prefers_edmc_current_ship(self):
+        d = Path(tempfile.mkdtemp())
+        write_journal(d, "Journal.2026-10-01T090000.01.log", other_ship_loadout())
+        nav = self.navigator(d)
+        nav.bootstrap(state=edmc_state(CASPIAN))
+        self.assertEqual(nav.ship.name, "Caspian Explorer")
+
+    @unittest.skipUnless(REAL_PACK.exists(), "real neutron pack not built")
+    def test_bootstrap_waits_rather_than_plan_with_another_ship(self):
+        d = Path(tempfile.mkdtemp())
+        write_journal(d, "Journal.2026-10-01T090000.01.log", other_ship_loadout())
+        nav = self.navigator(d)
+        nav.bootstrap(state={"ShipID": 30, "ShipType": "explorer_nx", "Modules": None})
+        self.assertIsNone(nav.ship)
+        self.assertIn("relog", nav.ship_error)
+
+    @unittest.skipUnless(REAL_PACK.exists(), "real neutron pack not built")
+    def test_same_ship_in_journals_and_edmc_is_kept(self):
+        d = Path(tempfile.mkdtemp())
+        write_journal(d, "Journal.2026-10-01T090000.01.log", CASPIAN)
+        nav = self.navigator(d)
+        nav.bootstrap(state={"ShipID": 30, "ShipType": "explorer_nx", "Modules": None})
+        self.assertEqual(nav.loadout, CASPIAN)       # the journal's own Loadout, untouched
+        self.assertEqual(nav.ship.name, "Caspian Explorer")
+
+    @unittest.skipUnless(REAL_PACK.exists(), "real neutron pack not built")
+    def test_live_events_follow_edmc_ship(self):
+        nav = self.navigator(None)
+        nav.on_journal(other_ship_loadout(), edmc_state(other_ship_loadout()))
+        self.assertEqual(nav.ship.name, "Beluga Liner")
+        nav.on_journal({"event": "Music", "MusicTrack": "Exploration"}, edmc_state(CASPIAN))
+        self.assertEqual(nav.ship.name, "Caspian Explorer")
+
+
 class TailerTests(unittest.TestCase):
+    def test_follows_the_newest_journal_across_name_formats(self):
+        from forgelab_nav.standalone import JournalTailer
+        d = Path(tempfile.mkdtemp())
+        for name in ("Journal.211105120000.01.log", "Journal.2026-10-01T090000.01.log"):
+            (d / name).write_text("", encoding="utf-8")
+        tailer = JournalTailer(d, None, None, None)
+        self.assertEqual(tailer._newest().name, "Journal.2026-10-01T090000.01.log")
+
     def test_follows_new_lines_new_files_and_status(self):
         from forgelab_nav.standalone import JournalTailer
         d = Path(tempfile.mkdtemp())

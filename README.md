@@ -2,11 +2,11 @@
 
 Offline neutron-highway navigation for Elite Dangerous, with routes planned for your current ship, fuel guidance, automatic waypoint copying, and compact in-game directions.
 
-**[Download ForgeLab Navigator 1.1.0](https://github.com/jamanticus314-arch/ForgeLab-Navigator/releases/tag/v1.1.0)**. The release ZIP includes the complete runtime and neutron map. No internet connection is needed while using the Navigator.
+**[Download ForgeLab Navigator 1.1.1](https://github.com/jamanticus314-arch/ForgeLab-Navigator/releases/tag/v1.1.1)**. The release ZIP includes the complete runtime and neutron map. No internet connection is needed while using the Navigator.
 
 ## Install
 
-1. Download `ForgeLabNavigator-1.1.0.zip` from the release page and extract it.
+1. Download `ForgeLabNavigator-1.1.1.zip` from the release page and extract it.
 2. In EDMC, open **File → Settings → Plugins → Open**.
 3. Copy the extracted `ForgeLabNavigator` folder into that plugins folder and restart EDMC.
 
@@ -14,7 +14,7 @@ EDMC 6.x with Python 3.11 or later is supported. For standalone use, open `Forge
 
 Optional integrations are [EDMC Modern Overlay](https://github.com/SweetJonnySauce/EDMCModernOverlay) and [EDMC Hotkeys](https://github.com/SweetJonnySauce/EDMCHotkeys).
 
-See the [full user guide](plugin/ForgeLabNavigator/README.md), [1.1.0 changes](CHANGELOG.md), and [validation notes](docs/VALIDATION.md).
+See the [full user guide](plugin/ForgeLabNavigator/README.md), [changes](CHANGELOG.md), and [validation notes](docs/VALIDATION.md).
 
 ## Source and tests
 
@@ -26,7 +26,7 @@ Run tests with Python 3.11 or later:
 python -B -m unittest discover -s tests
 ```
 
-The synthetic tests run without the neutron map; map-dependent integration tests are skipped when it is absent. With the map present, all 41 tests run. No additional Python packages are required.
+The synthetic tests run without the neutron map; map-dependent integration tests are skipped when it is absent. With the map present, all 50 tests run. No additional Python packages are required.
 
 To package a complete checkout after adding the neutron map:
 

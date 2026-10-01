@@ -66,13 +66,13 @@ def plugin_app(parent: tk.Frame):
         retheme = None
     this.panel = ui.NavigatorPanel(parent, this.nav, on_theme=retheme)
     this.host.attach(parent, this.panel)
-    loadout = None
+    state = None
     try:
         from monitor import monitor  # type: ignore
-        loadout = monitor.ship()
+        state = monitor.state         # monitor.ship() has no fuel tank or unladen mass
     except Exception:  # noqa: BLE001
         pass
-    this.nav.bootstrap(loadout=loadout)
+    this.nav.bootstrap(state=state)
     registered = host_tk.register_hotkeys(this.nav)
     this.nav.integrations["hotkeys"] = None if registered is None else {"registered": registered, "bound": None}
     parent.after(15000, _tick)
